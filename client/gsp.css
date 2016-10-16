@@ -1,0 +1,13 @@
+.gsp{
+  border: 2px solid black;
+  text-align: center;
+  background-color: #ccc;
+}
+.playerbox{
+  border: 2px solid black;
+  margin: 10px;
+}
+.playerstats{
+  border: 2px solid black;
+  margin: 10px;
+}

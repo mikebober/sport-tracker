@@ -1,0 +1,138 @@
+.bshead{
+  background-color: #ccc;
+  border: 2px solid black;
+  text-align:center;
+}
+
+
+.ranks{
+  margin: 40px;
+  height: 200px;
+}
+
+.statehead{
+  border:2px solid black;
+  width:500px;
+  text-align: center;
+}
+.statestat{
+  border:2px solid black;
+  width:500px;
+  text-align: center;
+  border-top:1px solid black;
+  color:#ccc;
+  background-color: #000000;
+}
+.state{
+  float:left;
+}
+
+.FCIAChead{
+  border:2px solid black;
+  width:500px;
+  text-align: center;
+}
+.FCIACstat{
+  border:2px solid black;
+  width:500px;
+  text-align: center;
+  border-top:1px solid black;
+  color:#ccc;
+  background-color: #000000;
+}
+.FCIAC{
+  float: right;
+}
+
+
+.bscoach{
+  width:340px;
+  border:2px solid black;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.bsmidpage{
+  margin: 40px;
+  height:400px;
+}
+
+.bsimage{
+  border:2px solid black;
+  float: right;
+  height:377px;
+}
+.bsroster{
+  width:300px;
+  border:2px solid black;
+  padding:20px;
+  background-color: #ccc;
+  list-style: none;
+  border-top:1px solid black
+}
+.bsteam{
+  float:left;
+}
+.bsroster ul{
+  list-style: none;
+}
+
+.bsstats{
+  height:100px;
+  margin:40px;
+}
+.bswonstats{
+  height:100px;
+  width:33%;
+  float:left;
+}
+.bsloststats{
+  height:100px;
+  width:33%;
+  float:left;
+}
+.bstiedstats{
+  height:100px;
+  width:33%;
+  float:left;
+}
+
+.bswonnum{
+  height:48px;
+  border: 2px solid black;
+  border-top: 1px solid black;
+  text-align: center;
+  border-right: 1px solid black;
+}
+.bswon{
+  height:48px;
+  border: 2px solid black;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.bslostnum{
+  height:48px;
+  border: 2px solid black;
+  border-top: 1px solid black;
+  text-align: center;
+  border-right: 1px solid black;
+}
+.bslost{
+  height:48px;
+  border: 2px solid black;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.bstiednum{
+  height:48px;
+  border: 2px solid black;
+  border-top: 1px solid black;
+  text-align: center;
+}
+.bstied{
+  height:48px;
+  border: 2px solid black;
+  text-align: center;
+}

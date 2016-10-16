@@ -1,0 +1,136 @@
+.page1heading{
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+.year{
+  text-align: center;
+}
+
+.fall{
+  text-align: center;
+}
+.fall-nav{
+  height: 175px;
+}
+
+.fall-list ul{
+  margin: 0px;
+  padding: 0px;
+  line-height: 40px;
+}
+.fall-list li{
+
+  list-style: none;
+  float: left;
+  position: relative;
+  text-align: center;
+  display: block;
+  height: 40px;
+  width: 250px;
+  border: 2px solid black;
+  color: #ffffff;
+  background-color: #000000;
+}
+.fall-list li:hover{
+  background-color: green;
+}
+.fall-list ul li a{
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  width: 200px;
+  color: #ffffff;
+}
+.fall-list ul ul{
+  display: none;
+}
+.fall-list ul li:hover > ul{
+  display: block;
+}
+
+
+.winter{
+  text-align: center;
+}
+.winter-nav{
+  height: 175px;
+}
+.winter-list ul{
+  margin: 0px;
+  padding: 0px;
+  line-height: 40px;
+}
+.winter-list li{
+
+  list-style: none;
+  float: left;
+  position: relative;
+  text-align: center;
+  display: block;
+  height: 40px;
+  width: 250px;
+  border: 2px solid black;
+  background-color: #000000;
+  color: #ffffff;
+}
+.winter-list li:hover{
+  background-color: green;
+}
+.winter-list ul li a{
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  width: 200px;
+  color: #ffffff;
+}
+.winter-list ul ul{
+  display: none;
+}
+.winter-list ul li:hover > ul{
+  display: block;
+}
+
+
+.spring{
+  text-align: center;
+}
+.spring-nav{
+  height: 175px;
+}
+.spring-list ul{
+  margin: 0px;
+  padding: 0px;
+  line-height: 40px;
+}
+.spring-list li{
+
+  list-style: none;
+  float: left;
+  position: relative;
+  text-align: center;
+  display: block;
+  height: 40px;
+  width: 205px;
+  border: 2px solid black;
+  background-color: #000000;
+  color: #ffffff;
+}
+.spring-list li:hover{
+  background-color: green;
+}
+.spring-list ul li a{
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  width: 200px;
+  color: #ffffff;
+}
+.spring-list ul ul{
+  display: none;
+}
+.spring-list ul li:hover > ul{
+  display: block;
+}
