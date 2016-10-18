@@ -3,11 +3,81 @@
   text-align: center;
   background-color: #ccc;
 }
-.playerbox{
+.playerparent{
   border: 2px solid black;
-  margin: 10px;
+  height: 500px;
+  width: 700px;
 }
-.playerstats{
+.playerbox{
+  margin: 10px;
+  height: 155px;
+  width: 604px;
+  border-bottom: none;
+  border-left: none;
+}
+.playername{
   border: 2px solid black;
+  height: 30px;
+  margin: 0px;
+  width: 200px;
+  border-bottom:none;
+}
+.playername h3{
+  margin: 4px;
+}
+.playerpic{
+  border: 2px solid black;
+  height: 122px;
+  margin: 0px;
+  width: 200px;
+}
+.player{
+  height: 150px;
+  height: 235px;
+  width: 200px;
+  margin: 0px;
+  float: left;
+}
+
+.playerinfo{
+  height: 150px;
+  margin: 0px;
+  width: 300px;
+  float: left;
+}
+.goals{
+  border: 1px solid black;
+  height: 50px;
+  width: 300px;
+  margin-left: 4px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+.goals h3{
+  margin-left: 5px;
+}
+.time{
+  height: 50px;
+  width: 300px;
+  margin-left: 4px;
+  border: 1px solid black;
+  border-right: 2px solid black;
+}
+.time h3{
+    margin-left: 5px;
+}
+.years{
+  border: 1px solid black;
+  height: 50px;
+  width: 300px;
+  margin-left: 4px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.years h3{
+    margin-left: 5px;
+}
+.playerbox2{
+  float: left;
   margin: 10px;
 }
