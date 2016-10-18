@@ -65,29 +65,39 @@ body{
 }
 
 
-
+.featured{
+  margin-left: 10px;
+}
 .featuredbox{
   border:2px solid black;
   height: 200px;
   background-color: #ccc;
   width: 950px;
+  margin-left: 10px;
 }
 .featuredbox p{
   padding: 30px;
 }
 
 
+.trending{
+  margin-left: 10px;
+}
 .trendingbox{
   border:2px solid black;
   height: 200px;
   background-color: #ccc;
   width: 950px;
+  margin-left: 10px;
 }
 .trendingbox p{
   padding:30px;
 }
 
 
+.uparent{
+  margin-left: 10px;
+}
 .upcomminggame{
   border:2px solid black;
   height: 200px;
