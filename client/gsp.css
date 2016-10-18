@@ -5,8 +5,8 @@
 }
 .playerparent{
   border: 2px solid black;
-  height: 500px;
-  width: 700px;
+  height: 1000px;
+  width: 1000px;
 }
 .playerbox{
   margin: 10px;
@@ -14,6 +14,9 @@
   width: 604px;
   border-bottom: none;
   border-left: none;
+  margin-left: 80px;
+  margin-right: 80px;
+  float:left;
 }
 .playername{
   border: 2px solid black;
@@ -33,7 +36,7 @@
 }
 .player{
   height: 150px;
-  height: 235px;
+  height: 160px;
   width: 200px;
   margin: 0px;
   float: left;
@@ -42,13 +45,13 @@
 .playerinfo{
   height: 150px;
   margin: 0px;
-  width: 300px;
+  width: 210px;
   float: left;
 }
 .goals{
   border: 1px solid black;
   height: 50px;
-  width: 300px;
+  width: 200px;
   margin-left: 4px;
   border-top: 2px solid black;
   border-right: 2px solid black;
@@ -58,7 +61,7 @@
 }
 .time{
   height: 50px;
-  width: 300px;
+  width: 200px;
   margin-left: 4px;
   border: 1px solid black;
   border-right: 2px solid black;
@@ -69,15 +72,11 @@
 .years{
   border: 1px solid black;
   height: 50px;
-  width: 300px;
+  width: 200px;
   margin-left: 4px;
   border-right: 2px solid black;
   border-bottom: 2px solid black;
 }
 .years h3{
     margin-left: 5px;
-}
-.playerbox2{
-  float: left;
-  margin: 10px;
 }
