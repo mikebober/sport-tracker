@@ -8,10 +8,12 @@
 .picsparent{
   border: 2px solid black;
   height: 600px;
+  margin-left: 225px;
+  margin-right: 225px;
 }
 .picschild1{
   height: 250px;
-  width: 250px;
+  width: 500px;
   background-color: #ccc;
   border: 2px solid black;
   margin: 20px;
@@ -19,7 +21,7 @@
 }
 .picschild2{
   height: 250px;
-  width: 250px;
+  width: 300px;
   background-color: #ccc;
   border: 2px solid black;
   margin: 20px;
@@ -27,7 +29,7 @@
 }
 .picschild3{
   height: 250px;
-  width: 250px;
+  width: 300px;
   background-color: #ccc;
   border: 2px solid black;
   margin: 20px;
@@ -35,39 +37,7 @@
 }
 .picschild4{
   height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.picschild5{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.picschild6{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.picschild7{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.picschild8{
-  height: 250px;
-  width: 250px;
+  width: 500px;
   background-color: #ccc;
   border: 2px solid black;
   margin: 20px;
@@ -79,74 +49,7 @@
   text-align: center;
   margin-top: 40px;
 }
-.vidsparent{
-  height: 675px;
-  border: 2px solid black;
-}
-.vidschild1{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.vidschild2{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.vidschild3{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.vidschild4{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.vidschild5{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.vidschild6{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.vidschild7{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
-.vidschild8{
-  height: 250px;
-  width: 250px;
-  background-color: #ccc;
-  border: 2px solid black;
-  margin: 20px;
-  float: left;
-}
+
 
 .table{
   height: 100px;
