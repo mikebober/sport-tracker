@@ -5,17 +5,15 @@
 }
 .playerparent{
   border: 2px solid black;
-  height: 1000px;
-  width: 1000px;
+  height: 600px;
+  width: 100%;
 }
 .playerbox{
   margin: 10px;
   height: 155px;
-  width: 604px;
+  width: 410px;
   border-bottom: none;
   border-left: none;
-  margin-left: 80px;
-  margin-right: 80px;
   float:left;
 }
 .playername{
@@ -33,6 +31,7 @@
   height: 122px;
   margin: 0px;
   width: 200px;
+  background-color: #ccc;
 }
 .player{
   height: 150px;

@@ -207,3 +207,45 @@ FlowRouter.route('/gsoccerplayers',{
     BlazeLayout.render('MainLayout',{main:'Gsoccerplayers'});
   }
 })
+FlowRouter.route('/bsoccerplayers',{
+  name:'bsoccerplayers',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Bsoccerplayers'});
+  }
+})
+FlowRouter.route('/footballplayers',{
+  name:'footballplayers',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Footballplayers'});
+  }
+})
+FlowRouter.route('/fieldhockeyplayers',{
+  name:'fieldhockeyplayers',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Fieldhockeyplayers'});
+  }
+})
+FlowRouter.route('/volleyballplayers',{
+  name:'volleyballplayers',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Volleyballplayers'});
+  }
+})
+FlowRouter.route('/bccp',{
+  name:'bccp',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Bccp'});
+  }
+})
+FlowRouter.route('/gccp',{
+  name:'gccp',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Gccp'});
+  }
+})
