@@ -249,3 +249,10 @@ FlowRouter.route('/gccp',{
     BlazeLayout.render('MainLayout',{main:'Gccp'});
   }
 })
+FlowRouter.route('/bbp',{
+  name:'bbp',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Bbp'});
+  }
+})
