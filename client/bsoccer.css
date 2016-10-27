@@ -12,12 +12,12 @@
 
 .statehead{
   border:2px solid black;
-  width:500px;
+  width:100%;
   text-align: center;
 }
 .statestat{
   border:2px solid black;
-  width:500px;
+  width:100%;
   text-align: center;
   border-top:1px solid black;
   color:#ccc;
@@ -25,16 +25,17 @@
 }
 .state{
   float:left;
+  width:45%;
 }
 
 .FCIAChead{
   border:2px solid black;
-  width:500px;
+  width:100%;
   text-align: center;
 }
 .FCIACstat{
   border:2px solid black;
-  width:500px;
+  width:100%;
   text-align: center;
   border-top:1px solid black;
   color:#ccc;
@@ -42,6 +43,7 @@
 }
 .FCIAC{
   float: right;
+  width:45%;
 }
 
 
