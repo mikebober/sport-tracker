@@ -20,7 +20,7 @@
   border: 2px solid black;
   height: 30px;
   margin: 0px;
-  width: 200px;
+  width: 100%;
   border-bottom:none;
 }
 .playername h3{
@@ -30,13 +30,13 @@
   border: 2px solid black;
   height: 122px;
   margin: 0px;
-  width: 200px;
+  width: 100%;
   background-color: #ccc;
 }
 .player{
   height: 150px;
   height: 160px;
-  width: 200px;
+  width: 50%;
   margin: 0px;
   float: left;
 }
@@ -44,23 +44,68 @@
 .playerinfo{
   height: 150px;
   margin: 0px;
-  width: 210px;
+  width: 50%;
   float: left;
 }
-.goals{
+.gsgoals{
   border: 1px solid black;
-  height: 50px;
-  width: 200px;
+  height: 25%;
+  width: 100%;
   margin-left: 4px;
   border-top: 2px solid black;
   border-right: 2px solid black;
 }
-.goals h3{
+.gsgoals h4{
+  margin-left: 5px;
+}
+.gstime{
+  height: 25%;
+  width: 100%;
+  margin-left: 4px;
+  border: 1px solid black;
+  border-right: 2px solid black;
+}
+.gstime h3{
+    margin-left: 5px;
+}
+.gsyears{
+  border: 1px solid black;
+  height: 25%;
+  width: 100%;
+  margin-left: 4px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.gsyears h3{
+    margin-left: 5px;
+}
+.gsother{
+  border: 1px solid black;
+  height: 24%;
+  width: 100%;
+  margin-left: 4px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.gsother h4{
+    margin-left: 5px;
+    padding: 0px;
+}
+
+.goals{
+  border: 1px solid black;
+  height: 33%;
+  width: 100%;
+  margin-left: 4px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+.goals h4{
   margin-left: 5px;
 }
 .time{
-  height: 50px;
-  width: 200px;
+  height: 33%;
+  width: 100%;
   margin-left: 4px;
   border: 1px solid black;
   border-right: 2px solid black;
@@ -70,12 +115,12 @@
 }
 .years{
   border: 1px solid black;
-  height: 50px;
-  width: 200px;
+  height: 33%;
+  width: 100%;
   margin-left: 4px;
   border-right: 2px solid black;
   border-bottom: 2px solid black;
 }
 .years h3{
     margin-left: 5px;
-}
+  }

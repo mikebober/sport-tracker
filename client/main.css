@@ -39,17 +39,20 @@ body{
   color: #ccc;
 }
 
-
+.head{
+  height: 300px;
+  width: 100%;
+}
 .parent{
-  height: 400px;
+  height: 100%;
   border: 4px solid black;
   padding-left: 850px;
   background-image: url("http://www.planwallpaper.com/static/images/Cool-background-random-17506456-1869-1168.jpg");
   margin:0;
 }
 .child{
-  width: 300px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   margin-top: 50px;
   margin-bottom:50px;
   background-color: #ccc;
@@ -58,10 +61,10 @@ body{
   border-left: 4px solid black;
 }
 .child p{
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 
@@ -72,8 +75,7 @@ body{
   border:2px solid black;
   height: 200px;
   background-color: #ccc;
-  width: 950px;
-  margin-left: 10px;
+  width: 100%;
 }
 .featuredbox p{
   padding: 30px;
@@ -87,8 +89,7 @@ body{
   border:2px solid black;
   height: 200px;
   background-color: #ccc;
-  width: 950px;
-  margin-left: 10px;
+  width: 100%;
 }
 .trendingbox p{
   padding:30px;
@@ -96,13 +97,14 @@ body{
 
 
 .uparent{
-  margin-left: 10px;
+  width: 75%;
+  height: 200px;
 }
 .upcomminggame{
   border:2px solid black;
   height: 200px;
   background-color: #ccc;
-  width: 475px;
+  width: 48%;
   float: left;
 }
 .upcomminggame h2{
@@ -112,7 +114,7 @@ body{
   border:2px solid black;
   height: 200px;
   background-color: #ccc;
-  width: 475px;
+  width: 48%;
   float: left;
 }
 .upcommingevent h2{
