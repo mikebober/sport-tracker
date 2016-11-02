@@ -59,6 +59,7 @@
 .winter-nav{
   height: 175px;
 }
+
 .winter-list ul{
   margin: 0px;
   padding: 0px;
@@ -72,10 +73,10 @@
   text-align: center;
   display: block;
   height: 40px;
-  width: 250px;
+  width: 19%;
   border: 2px solid black;
-  background-color: #000000;
   color: #ffffff;
+  background-color: #000000;
 }
 .winter-list li:hover{
   background-color: green;
@@ -85,14 +86,17 @@
   text-decoration: none;
   display: block;
   height: 40px;
-  width: 200px;
   color: #ffffff;
 }
 .winter-list ul ul{
   display: none;
+  width: 100%;
 }
 .winter-list ul li:hover > ul{
   display: block;
+}
+.winter-list ul li ul li{
+  width: 100%;
 }
 
 
@@ -102,6 +106,7 @@
 .spring-nav{
   height: 175px;
 }
+
 .spring-list ul{
   margin: 0px;
   padding: 0px;
@@ -115,10 +120,10 @@
   text-align: center;
   display: block;
   height: 40px;
-  width: 205px;
+  width: 16%;
   border: 2px solid black;
-  background-color: #000000;
   color: #ffffff;
+  background-color: #000000;
 }
 .spring-list li:hover{
   background-color: green;
@@ -128,12 +133,15 @@
   text-decoration: none;
   display: block;
   height: 40px;
-  width: 200px;
   color: #ffffff;
 }
 .spring-list ul ul{
   display: none;
+  width: 100%;
 }
 .spring-list ul li:hover > ul{
   display: block;
+}
+.spring-list ul li ul li{
+  width: 100%;
 }
