@@ -45,20 +45,19 @@ body{
 }
 .parent{
   height: 100%;
-  border: 4px solid black;
-  padding-left: 850px;
+  width:70%;
   background-image: url("http://www.planwallpaper.com/static/images/Cool-background-random-17506456-1869-1168.jpg");
   margin:0;
+  float: left;
 }
 .child{
-  width: 100%;
+  width: 30%;
   height: 100%;
   margin-top: 50px;
   margin-bottom:50px;
   background-color: #ccc;
   margin:0;
-  float:right;
-  border-left: 4px solid black;
+  float:left;
 }
 .child p{
   padding-top: 20%;
