@@ -1,12 +1,11 @@
 /* CSS declarations go here */
 body{
-  background-color: green;
+  background-color: #8FBC8F;
   padding: 0px;
   margin: 0px;
 }
 .header h1{
   text-align: center;
-  border-bottom: 2px solid black;
 }
 .nav{
   height: 45px;
@@ -49,12 +48,14 @@ body{
   background-image: url("http://www.planwallpaper.com/static/images/Cool-background-random-17506456-1869-1168.jpg");
   margin:0;
   float: left;
+  border-bottom:2px solid black;
+  border-top:2px solid black;
 }
 .child{
   width: 30%;
   height: 100%;
-  margin-top: 50px;
-  margin-bottom:50px;
+  border-bottom:2px solid black;
+  border-top:2px solid black;
   background-color: #ccc;
   margin:0;
   float:left;
@@ -71,7 +72,8 @@ body{
   margin-left: 10px;
 }
 .featuredbox{
-  border:2px solid black;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
   height: 200px;
   background-color: #ccc;
   width: 100%;
@@ -80,21 +82,9 @@ body{
   padding: 30px;
 }
 
-
-.trending{
-  margin-left: 10px;
+.upcomming{
+  margin-left:10px;
 }
-.trendingbox{
-  border:2px solid black;
-  height: 200px;
-  background-color: #ccc;
-  width: 100%;
-}
-.trendingbox p{
-  padding:30px;
-}
-
-
 .uparent{
   width: 75%;
   height: 200px;
@@ -117,5 +107,24 @@ body{
   float: left;
 }
 .upcommingevent h2{
+  text-align: center;
+}
+
+.topteams{
+  margin-left:10px;
+}
+.topteamsbox{
+  width: 100%;
+  background-color: #000000;
+  height: 70px;
+}
+.team1{
+  height: 70px;
+  background-color: #ccc;
+  width: 33.13%;
+  float: left;
+  border-left: 2px solid black;
+}
+.team1 h2{
   text-align: center;
 }
