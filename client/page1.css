@@ -24,7 +24,7 @@
   float: left;
   position: relative;
   text-align: center;
-  display: block;
+  display: inline-block;
   height: 40px;
   width: 19%;
   border: 2px solid black;
@@ -144,4 +144,40 @@
 }
 .spring-list ul li ul li{
   width: 100%;
+}
+.menu{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #222;
+  color: #ffffff;
+}
+.menu ul{
+  margin: 0px;
+  padding: 0px;
+  line-height: 30px;
+
+}
+.menu li{
+  margin: 0px;
+  padding: 0px;
+  list-style:none;
+  float:left;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.menu ul li a{
+  text-align: center;
+  text-decoration: none;
+  height: 30px;
+  width: 150px;
+  display: block;
+}
+.menu ul ul{
+  position: absolute;
+  display:none;
+}
+.menu ul li:hover ul{
+  display: block;
 }

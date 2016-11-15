@@ -7,6 +7,10 @@ body{
 .header h1{
   text-align: center;
 }
+
+
+
+
 .nav{
   height: 45px;
   width: 100%;
@@ -22,6 +26,7 @@ body{
     width: 24%;
     text-align: center;
     display: inline-block;
+    position:relative;
 }
 .nav li:hover{
   background-color: #000000;
@@ -32,11 +37,17 @@ body{
 .nav a{
   text-decoration: none;
   color: #000000;
+  display: block;
 }
 .nav a:hover{
   background-color: #000000 ;
   color: #ccc;
 }
+
+
+
+
+
 
 .head{
   height: 300px;
@@ -56,7 +67,7 @@ body{
   height: 100%;
   border-bottom:2px solid black;
   border-top:2px solid black;
-  background-color: #ccc;
+  background-color: #FF4023;
   margin:0;
   float:left;
 }
@@ -75,7 +86,7 @@ body{
   border-top:2px solid black;
   border-bottom:2px solid black;
   height: 200px;
-  background-color: #ccc;
+  background-color: #FF8106;
   width: 100%;
 }
 .featuredbox p{
@@ -92,7 +103,7 @@ body{
 .upcomminggame{
   border:2px solid black;
   height: 200px;
-  background-color: #ccc;
+  background-color: #FFA715;
   width: 48%;
   float: left;
 }
@@ -102,7 +113,7 @@ body{
 .upcommingevent{
   border:2px solid black;
   height: 200px;
-  background-color: #ccc;
+  background-color: #FFA715;
   width: 48%;
   float: left;
 }
@@ -120,7 +131,7 @@ body{
 }
 .team1{
   height: 70px;
-  background-color: #ccc;
+  background-color: #FF0F00;
   width: 33.13%;
   float: left;
   border-left: 2px solid black;
