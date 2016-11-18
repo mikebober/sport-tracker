@@ -23,10 +23,10 @@ body{
   list-style: none;
 }
 .nav li{
-    width: 24%;
+    width: 23%;
     text-align: center;
     display: inline-block;
-    position:relative;
+    position: relative;
 }
 .nav li:hover{
   background-color: #000000;
@@ -37,14 +37,18 @@ body{
 .nav a{
   text-decoration: none;
   color: #000000;
-  display: block;
 }
 .nav a:hover{
   background-color: #000000 ;
   color: #ccc;
 }
 
-
+.nav ul li ul{
+  display: none;
+}
+.nav ul li:hover ul{
+  display: inline-block;
+}
 
 
 

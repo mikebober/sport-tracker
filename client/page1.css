@@ -145,18 +145,21 @@
 .spring-list ul li ul li{
   width: 100%;
 }
+
+
+
 .menu{
   margin: 0px;
   padding: 0px;
-  width: 100%;
-  background-color: #222;
+  background-color: #ffffff;
   color: #ffffff;
+  height: 45px;
+  width: 100%;
 }
 .menu ul{
   margin: 0px;
   padding: 0px;
-  line-height: 30px;
-
+  line-height: 45px;
 }
 .menu li{
   margin: 0px;
@@ -166,18 +169,42 @@
   position: relative;
   text-align: center;
   text-decoration: none;
+  width: 24%;
 }
 .menu ul li a{
   text-align: center;
   text-decoration: none;
-  height: 30px;
-  width: 150px;
+  height: 45px;
   display: block;
 }
 .menu ul ul{
   position: absolute;
   display:none;
+  background-color: #ccc;
+  padding: 0px;
+  margin: 0px;
+  width:200px;
+  float:left;
 }
-.menu ul li:hover ul{
+.menu ul li ul li{
+  float: left;
+  text-align: center;
+  clear: left;
+}
+.menu ul li ul li a{
+  width: 200px;
+}
+.menu ul li:hover > ul{
   display: block;
+}
+.menu ul ul ul {
+  display: none;
+  background-color: #ccc;
+  position: absolute;
+  float: right;
+  right: 200px;
+  margin: 0px;
+  left: 100%;
+  top: 0;
+  margin-left: 150px;
 }
