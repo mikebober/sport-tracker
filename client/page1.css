@@ -193,6 +193,8 @@
 }
 .menu ul li ul li a{
   width: 200px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
 }
 .menu ul li:hover > ul{
   display: block;
