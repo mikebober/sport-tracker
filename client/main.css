@@ -1,6 +1,6 @@
 /* CSS declarations go here */
 body{
-  background-color: #8FBC8F;
+  background-color: #94B8FF;
   padding: 0px;
   margin: 0px;
 }
@@ -14,7 +14,6 @@ body{
   margin: 0px;
   padding: 0px;
   background-color: #ffffff;
-  color: #ffffff;
   height: 45px;
   width: 100%;
 }
@@ -31,18 +30,26 @@ body{
   position: relative;
   text-align: center;
   text-decoration: none;
-  width: 24%;
+  width: 25%;
+}
+.menu ul li:hover>a{
+  background-color: #000000;
+  color:#ffffff;
+}
+.menu ul li ul li {
+  display: block;
 }
 .menu ul li a{
   text-align: center;
   text-decoration: none;
   height: 45px;
   display: block;
+  color: #000000;
 }
 .menu ul ul{
   position: absolute;
   display:none;
-  background-color: #ccc;
+  background-color: #ffffff;
   padding: 0px;
   margin: 0px;
   width:200px;
@@ -63,7 +70,7 @@ body{
 }
 .menu ul ul ul {
   display: none;
-  background-color: #ccc;
+  background-color: #0000000;
   position: absolute;
   float: right;
   right: 200px;
@@ -94,7 +101,7 @@ body{
   height: 100%;
   border-bottom:2px solid black;
   border-top:2px solid black;
-  background-color: #FF4023;
+  background-color: #FFC139;
   margin:0;
   float:left;
 }
@@ -113,7 +120,7 @@ body{
   border-top:2px solid black;
   border-bottom:2px solid black;
   height: 200px;
-  background-color: #FF8106;
+  background-color: #FFC139;
   width: 100%;
 }
 .featuredbox p{
@@ -130,7 +137,7 @@ body{
 .upcomminggame{
   border:2px solid black;
   height: 200px;
-  background-color: #FFA715;
+  background-color: #FFC139;
   width: 48%;
   float: left;
 }
@@ -140,7 +147,7 @@ body{
 .upcommingevent{
   border:2px solid black;
   height: 200px;
-  background-color: #FFA715;
+  background-color: #FFC139;
   width: 48%;
   float: left;
 }
@@ -158,7 +165,7 @@ body{
 }
 .team1{
   height: 70px;
-  background-color: #FF0F00;
+  background-color: #FFC139;
   width: 33.13%;
   float: left;
   border-left: 2px solid black;
