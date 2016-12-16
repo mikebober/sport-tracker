@@ -112,66 +112,106 @@ body{
   padding-right: 10%;
 }
 
-
-.featured{
-  margin-left: 10px;
-}
-.featuredbox{
-  border-top:2px solid black;
-  border-bottom:2px solid black;
-  height: 200px;
-  background-color: #ef6024;
-  width: 100%;
-}
-.featuredbox p{
-  padding: 30px;
-}
-
-.upcomming{
-  margin-left:10px;
-}
-.uparent{
-  width: 75%;
-  height: 200px;
-}
-.upcomminggame{
-  border:2px solid black;
-  height: 200px;
-  background-color: #ef6024;
-  width: 48%;
-  float: left;
-}
-.upcomminggame h2{
+.feat{
   text-align: center;
+  height: 850px;
 }
-.upcommingevent{
-  border:2px solid black;
-  height: 200px;
+.box1{
+  height:200px;
+  width:35%;
+  border: 1px solid black;
+  float:left;
+  margin:5%;
+  margin-left: 8%;
+  margin-bottom:0px;
   background-color: #ef6024;
-  width: 48%;
-  float: left;
 }
-.upcommingevent h2{
-  text-align: center;
+.box2{
+  height:200px;
+  width:35%;
+  border: 1px solid black;
+  float:right;
+  margin:5%;
+  margin-right: 8%;
+  margin-bottom:0px;
+  background-color: #ef6024;
+}
+.box3{
+  height:200px;
+  width:35%;
+  border: 1px solid black;
+  float:left;
+  margin:5%;
+  margin-left: 8%;
+  margin-bottom:0px;
+  background-color: #ef6024;
+}
+.box4{
+  height:200px;
+  width:35%;
+  border: 1px solid black;
+  float:right;
+  margin:5%;
+  margin-right: 8%;
+  margin-bottom:0px;
+  background-color: #ef6024;
+}
+.box5{
+  height:200px;
+  width:35%;
+  border: 1px solid black;
+  float:left;
+  margin:5%;
+  margin-left: 8%;
+  margin-bottom:0px;
+  background-color: #ef6024;
+}
+.box6{
+  height:200px;
+  width:35%;
+  border: 1px solid black;
+  float:right;
+  margin:5%;
+  margin-right: 8%;
+  margin-bottom:0px;
+  background-color: #ef6024;
 }
 
-.topteams{
-  margin-left:10px;
-}
-.topteamsbox{
+
+.top{
+  height: 130px;
   width: 100%;
-  background-color: #000000;
-  height: 70px;
+  text-align: center;
 }
 .team1{
-  height: 70px;
-  background-color: #ef6024;
-  width: 33.13%;
+  height: 60px;
+  width: 30%;
+  margin:1.5%;
+  border: 1px solid black;
   float: left;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
+  background-color: #ef6024;
 }
-.team1 h2{
+.ewrapper{
+  height:150px;
+  width: 40%;
+  border: 1px solid black;
+  float:left;
+  margin:3%;
+}
+.events{
+  border-bottom:1px solid black;
+  height:20px;
+  text-align: center;
+}
+.gwrapper{
+  height:150px;
+  width: 40%;
+  border: 1px solid black;
+  float:right;
+  margin:3%;
+}
+.games{
+  border-bottom:1px solid black;
+  height:20px;
   text-align: center;
 }

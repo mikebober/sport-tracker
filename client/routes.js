@@ -361,3 +361,17 @@ FlowRouter.route('/gp',{
     BlazeLayout.render('MainLayout',{main:'Gp'});
   }
 })
+FlowRouter.route('/team',{
+  name:'team',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Team'});
+  }
+})
+FlowRouter.route('/players',{
+  name:'players',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Players'});
+  }
+})
