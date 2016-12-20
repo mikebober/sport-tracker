@@ -2,3 +2,45 @@
   border-bottom:2px solid black;
   text-align: center;
 }
+.block{
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 280px;
+  background-color: red;
+  clear: bottom;
+}
+.bloc{
+  width: 44%;
+  height: 40px;
+  margin-left: 28%;
+  margin-right: 28%;
+  background-color: blue;
+}
+.blo{
+  width: 44%;
+  height: 40px;
+  margin-left: 28%;
+  margin-right: 28%;
+  background-color: yellow;
+}
+#a{
+  width: 100px;
+  height: 30px;
+  background-color: red;
+}
+#b{
+  width: 100px;
+  height: 30px;
+  background-color: blue;
+}
+#c{
+  width: 100px;
+  height: 30px;
+  background-color: green;
+}
+#d{
+  width: 100px;
+  height: 30px;
+  background-color: yellow;
+}
