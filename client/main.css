@@ -17,7 +17,8 @@ body{
   padding: 0px;
   background-color: #ffffff;
   height: 45px;
-  width: 100%;
+  width: 85%;
+  float:left;
 }
 .menu ul{
   margin: 0px;
@@ -81,8 +82,39 @@ body{
   top: 0;
   margin-left: 150px;
 }
-
-
+.sign{
+  width:15%
+  margin:0px;
+  padding:0px;
+  width:15%;
+  float:left;
+}
+.sign ul{
+  margin:0px;
+  padding:0px;
+}
+.sign li{
+  list-style:none;
+  background-color: #ffffff;
+  margin:0px;
+  padding:0px;
+  height:22.5px;
+  text-align: center;
+}
+.sign ul li:hover>a{
+  background-color: #000000;
+  color:#ffffff;
+}
+.sign a{
+  text-decoration: none;
+  color: #000000;
+  margin:0px;
+  padding:0px;
+  display:block;
+}
+.sign ul li:hover > ul{
+  display: block;
+}
 
 
 .head{
