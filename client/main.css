@@ -1,11 +1,18 @@
 /* CSS declarations go here */
 body{
   background-color: #3598db;
-  padding: 0px;
+  padding:inherit;
+  margin: auto;
+}
+.nav{
   margin: 0px;
+  padding: 0px;
 }
 .header h1{
   text-align: center;
+  margin: 0px;
+  padding: 0px;
+  height:100px;
 }
 .header h1 a{
   text-decoration: none;
@@ -84,7 +91,9 @@ body{
 }
 .sign{
   width:15%
-  margin:0px;
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:0px;
   padding:0px;
   width:15%;
   float:left;
@@ -112,10 +121,10 @@ body{
   padding:0px;
   display:block;
 }
-.sign ul li:hover > ul{
-  display: block;
+.warp{
+  margin:0px;
+  padding:0px;
 }
-
 
 .head{
   height: 300px;

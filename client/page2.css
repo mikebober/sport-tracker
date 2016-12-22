@@ -1,9 +1,12 @@
-.gallary h1{
-  text-align: center;
+.nav{
+  margin: 0px;
+  padding: 0px;
 }
 .pics{
   text-align: center;
-  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height:100px;
 }
 .picsparent{
   border: 2px solid black;
@@ -36,16 +39,4 @@
   width: 65%;
   margin: 1%;
   float:left;
-}
-
-
-.vids{
-  text-align: center;
-  margin-top: 40px;
-}
-
-
-.table{
-  height: 100px;
-  width: 150px;
 }
