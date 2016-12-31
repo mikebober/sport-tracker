@@ -16,6 +16,7 @@ button[type=submit]{
   width:60%;
   margin-left:20%;
   margin-right:20%;
+  margin-top:10px;
   border: none;
   border-radius: 4px;
 }
@@ -29,4 +30,6 @@ form{
   border:1px solid #ccc;
   background-color: #ccc;
   height:200px;
+  margin-top:10px;
+  border-radius: 4px;
 }
