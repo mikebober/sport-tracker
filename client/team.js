@@ -1,3 +1,5 @@
+import { Teams } from '../imports/api/teams/teams.js';
+
 Template.Team.events({
   'submit': (e, tmpl) => {
     e.preventDefault();

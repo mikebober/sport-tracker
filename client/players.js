@@ -10,6 +10,7 @@ Template.Players.events({
       loses: tmpl.find('#time').value
       //creates object with forum data
     };
+    Players.insert(player);
 
     tmpl.find('#firstName').value="";
     tmpl.find('#lastName').value="";
@@ -17,6 +18,5 @@ Template.Players.events({
     tmpl.find('#time').value="";
     //emptys field
 
-    Players.insert(player);
   }
 });
