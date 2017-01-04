@@ -1,24 +1,24 @@
-import { Teams } from '../imports/api/teams/teams.js';
+import { Teams } from '../../api/teams/teams.js';
+import { addTeam } from '../../api/teams/methods.js';
 
-Template.Team.events({
+Template.Teams.events({
   'submit': (e, tmpl) => {
     e.preventDefault();
 
-
-    const team= {
+    //creates object with form data
+    const team = {
       school: tmpl.find('#school').value,
       sport: tmpl.find('#sport').value,
       wins: tmpl.find('#wins').value,
       loses: tmpl.find('#loses').value
-      //creates object with forum data
     };
 
+    //empties field
     tmpl.find('#school').value="";
     tmpl.find('#sport').value="";
     tmpl.find('#wins').value="";
     tmpl.find('#loses').value="";
-    //emptys field
 
-    Teams.insert(team);
+    addTeam.call(team);
   }
 });

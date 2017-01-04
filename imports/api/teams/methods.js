@@ -1,30 +1,27 @@
 import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 import { ValidatedMethod } from 'meteor/mdg:validated-method';
-import moment from 'moment';
-import { Messages } from './messages.js';
+import { Teams } from './teams.js';
 
 // This method takes content and a username as parameters and inserts them
-// into the Messages collection
-export const addMessage = new ValidatedMethod({
-	name: 'message.add',
+// into the Teams collection
+export const addTeam = new ValidatedMethod({
+	name: 'team.add',
 
 	// Validate the data that was passed by checking if they are the correct types
 	validate: new SimpleSchema({
-		content: { type: String },
-		username: { type: String }
+		school: { type: String },
+        sport: { type: String },
+        wins: { type: String },
+        loses: { type: String }
 	}).validator(),
 
-	run({ content, username }) {
-		// Create an object with the data passed in, with a couple extra fields for
-		// date and user. this.userId refers to the user._id of whoever made the method call
-        const msg = {
-            date: moment().format(),
-            user: this.userId,
-			username: username,
-            content: content
-        };
-
+	run({ school, sport, wins, loses }) {
 		// Inserts the object into the collection
-		Messages.insert(msg);
+		Teams.insert({
+			school,
+			sport,
+			wins,
+			loses
+		});
 	}
 });

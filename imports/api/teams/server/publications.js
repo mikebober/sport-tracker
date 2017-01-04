@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
-import { Messages } from '../messages.js';
+import { Teams } from '../teams.js';
 
-// Publish all Messages
-Meteor.publish('messages.public', function () {
-	return Messages.find();
+// Publish all Teams
+Meteor.publish('teams.public', function () {
+	return Teams.find();
 });

@@ -14,7 +14,7 @@ Teams.deny({
 Teams.schema = new SimpleSchema({
 	school: { type: String },
 	sport: { type: String },
-  wins: { type: String },
+  	wins: { type: String },
 	loses: { type: String },
 	player: { type: [Object] }
 });

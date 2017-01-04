@@ -1,3 +1,33 @@
+import { FlowRouter } from 'meteor/kadira:flow-router';
+import { BlazeLayout } from 'meteor/kadira:blaze-layout';
+
+import MainLayout from '../../ui/layouts/mainlayout.html';
+import Teams from '../../ui/views/teams.html';
+import Players from '../../ui/views/players.html';
+import Home from '../../ui/views/home.html';
+import Page1 from '../../ui/views/page1.html';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import '../../ui/layouts/navigation.html';
+
 FlowRouter.route('/',{
   name:'Home',
   action(){
@@ -365,7 +395,7 @@ FlowRouter.route('/team',{
   name:'team',
   action(){
 
-    BlazeLayout.render('MainLayout',{main:'Team'});
+    BlazeLayout.render('MainLayout',{main:'Teams'});
   }
 })
 FlowRouter.route('/players',{

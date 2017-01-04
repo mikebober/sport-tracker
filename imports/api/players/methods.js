@@ -1,12 +1,12 @@
 import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 import { ValidatedMethod } from 'meteor/mdg:validated-method';
 import moment from 'moment';
-import { Messages } from './messages.js';
+import { Players } from './players.js';
 
 // This method takes content and a username as parameters and inserts them
-// into the Messages collection
-export const addMessage = new ValidatedMethod({
-	name: 'message.add',
+// into the Players collection
+export const addPlayer = new ValidatedMethod({
+	name: 'player.add',
 
 	// Validate the data that was passed by checking if they are the correct types
 	validate: new SimpleSchema({
@@ -25,6 +25,6 @@ export const addMessage = new ValidatedMethod({
         };
 
 		// Inserts the object into the collection
-		Messages.insert(msg);
+		Players.insert(msg);
 	}
 });

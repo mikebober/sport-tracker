@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
-import { Messages } from '../messages.js';
+import { Players } from '../players.js';
 
-// Publish all Messages
-Meteor.publish('messages.public', function () {
-	return Messages.find();
+// Publish all Players
+Meteor.publish('players.public', function () {
+	return Players.find();
 });
