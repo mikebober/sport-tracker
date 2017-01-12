@@ -1,6 +1,6 @@
 .abouthead{
-  border-bottom:2px solid black;
   text-align: center;
+  margin-top:10px;
 }
 .block{
   width: 96%;
@@ -43,4 +43,10 @@
   width: 100px;
   height: 30px;
   background-color: yellow;
+}
+.boarder{
+  background-color: #000000;
+  height: 100px;
+  width: 100px;
+  boarder: 1px #ccc;
 }

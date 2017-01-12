@@ -114,12 +114,15 @@
   border-top: 1px solid black;
   text-align: center;
   border-right: 1px solid black;
+  background-color: #000000;
+  color: #ffffff;
 }
 .bswon{
   height:48px;
   border: 2px solid black;
   text-align: center;
   border-right: 1px solid black;
+  background-color: #ccc;
 }
 
 .bslostnum{
@@ -128,12 +131,15 @@
   border-top: 1px solid black;
   text-align: center;
   border-right: 1px solid black;
+  background-color: #000000;
+  color: #ffffff;
 }
 .bslost{
   height:48px;
   border: 2px solid black;
   text-align: center;
   border-right: 1px solid black;
+  background-color: #ccc;
 }
 
 .bstiednum{
@@ -141,9 +147,12 @@
   border: 2px solid black;
   border-top: 1px solid black;
   text-align: center;
+  background-color: #000000;
+  color: #ffffff;
 }
 .bstied{
   height:48px;
   border: 2px solid black;
   text-align: center;
+  background-color: #ccc;
 }
