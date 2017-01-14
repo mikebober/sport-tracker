@@ -3,50 +3,97 @@
   margin-top:10px;
 }
 .block{
-  width: 96%;
-  margin-left: 2%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid black;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+.middleTop{
+  width:94%;
+  border: 2px solid black;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 200px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  background-color: #ffa70f;
+}
+
+
+.bottomTop{
+  width:94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 10px;
+  height: 200px;
+}
+.btl{
+  margin:0px;
+  border:2px solid black;
+  width:35%;
+  height: 200px;
+  float: left;
   margin-right: 2%;
-  height: 280px;
-  background-color: red;
-  clear: bottom;
+  background-color: #ffa70f;
 }
-.bloc{
-  width: 44%;
-  height: 40px;
-  margin-left: 28%;
-  margin-right: 28%;
-  background-color: blue;
+.btr{
+  margin:0px;
+  border:2px solid black;
+  width:62%;
+  height: 200px;
+  float: left;
+  background-color: #ffa70f;
 }
-.blo{
-  width: 44%;
-  height: 40px;
-  margin-left: 28%;
-  margin-right: 28%;
-  background-color: yellow;
+
+
+.to{
+  width:94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 200px;
+  margin-bottom: 10px;
 }
-#a{
-  width: 100px;
-  height: 30px;
-  background-color: red;
+.tl{
+  margin:0px;
+  width:60%;
+  height:200px;
+  border: 2px solid black;
+  float: left;
+  margin-right: 1%;
+  background-color: #ffa70f;
 }
-#b{
-  width: 100px;
-  height: 30px;
-  background-color: blue;
+.tr{
+  margin:0px;
+  width:38%;
+  height:200px;
+  float: left;
 }
-#c{
-  width: 100px;
-  height: 30px;
-  background-color: green;
+.trt{
+  margin:0px;
+  width:100%;
+  border:2px solid black;
+  height: 93px;
+  margin-bottom:9px;
+  background-color: #ffa70f;
 }
-#d{
-  width: 100px;
-  height: 30px;
-  background-color: yellow;
+.trb{
+  margin:0px;
+  width:100%;
+  border:2px solid black;
+  height: 93px;
+  background-color: #ffa70f;
 }
-.boarder{
-  background-color: #000000;
-  height: 100px;
-  width: 100px;
-  boarder: 1px #ccc;
+
+
+.low{
+  width:94%;
+  border: 2px solid black;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 200px;
+  margin-bottom: 20px;
+  background-color: #ffa70f;
 }
