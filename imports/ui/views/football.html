@@ -29,65 +29,14 @@
         <h2>Coach:  Ireland</h2>
       </div>
       <div class="bsroster">
+        <h2>Roster</h2>
         <ul>
-          <li><a href="footballplayers">Roster</a></li>
+        {{#if players}}
+        {{#each player in players}}
+            <li>{{player.firstName}} {{player.lastName}}</li>
+        {{/each}}
+        {{/if}}
         </ul>
-        <table border="1px;">
-          <tr>
-            <th>Player Name</th>
-            <th>Stat</th>
-            <th>Stat</th>
-            <th>Stat</th>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-        </table>
       </div>
     </div>
     <div class="bsimage">

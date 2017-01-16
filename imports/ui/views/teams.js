@@ -19,6 +19,6 @@ Template.Teams.events({
     tmpl.find('#wins').value="";
     tmpl.find('#loses').value="";
 
-    addTeam.call(team);
+    Teams.insert(team);
   }
 });

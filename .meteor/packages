@@ -24,3 +24,5 @@ kadira:blaze-layout
 msavin:mongol
 aldeed:simple-schema
 mdg:validated-method
+accounts-password
+accounts-ui

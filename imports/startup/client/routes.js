@@ -6,6 +6,9 @@ import Teams from '../../ui/views/teams.html';
 import Players from '../../ui/views/players.html';
 import Home from '../../ui/views/home.html';
 import Page1 from '../../ui/views/page1.html';
+import Page3 from '../../ui/views/page3.html';
+import bsoccer from '../../ui/views/bsoccer.html';
+import football from '../../ui/views/football.html';
 // Add more templates here
 
 

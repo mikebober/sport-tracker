@@ -5,11 +5,11 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 export const Teams = new Mongo.Collection('Teams');
 
 // Deny all client-side queries against the Teams collection
-Teams.deny({
-	insert() { return true; },
-	update() { return true; },
-	remove() { return true; }
-});
+// Teams.deny({
+// 	insert() { return true; },
+// 	update() { return true; },
+// 	remove() { return true; }
+// });
 
 Teams.schema = new SimpleSchema({
 	school: { type: String },
