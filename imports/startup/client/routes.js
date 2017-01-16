@@ -6,23 +6,7 @@ import Teams from '../../ui/views/teams.html';
 import Players from '../../ui/views/players.html';
 import Home from '../../ui/views/home.html';
 import Page1 from '../../ui/views/page1.html';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Add more templates here
 
 
 
