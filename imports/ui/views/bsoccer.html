@@ -30,13 +30,26 @@
             </div>
             <div class="bsroster">
                 <h2>Roster</h2>
-                <ul>
-                {{#if players}}
-                {{#each player in players}}
-                    <li>{{player.firstName}} {{player.lastName}} {{player.goals}}</li>
-                {{/each}}
-                {{/if}}
-                </ul>
+                <div class="table">
+                <table>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Goals</th>
+                        <th>Assits</th>
+                    </tr>
+                    {{#if players}}
+                    {{#each player in players}}
+                    <tr>
+                        <td>{{player.firstName}}</td>
+                        <td>{{player.lastName}}</td>
+                        <td>{{player.goals}}</td>
+                        <td>{{player.assits}}</td>
+                    </tr>
+                    {{/each}}
+                    {{/if}}
+                </table>
+            </div>
             </div>
         </div>
         <div class="bsimage">

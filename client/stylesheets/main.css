@@ -40,7 +40,7 @@ body{
   position: relative;
   text-align: center;
   text-decoration: none;
-  width: 25%;
+  width: 20%;
 }
 .menu ul li:hover>a{
   background-color: #ffa70f;
@@ -89,38 +89,45 @@ body{
   top: 0;
   margin-left: 150px;
 }
+
+
+
 .sign{
-  width:15%
+  width:15%;
   margin-top:0px;
   margin-left:0px;
   margin-right:0px;
   padding:0px;
-  width:15%;
+  height: 45px;
   float:left;
+  background-color: #fff;
 }
-.sign ul{
-  margin:0px;
-  padding:0px;
+.nav1{
+  background-color:#C0C0C0;
+  height:45px;
+  float: left;
+  width:25%;
 }
-.sign li{
-  list-style:none;
-  background-color: #ccc;
-  margin:0px;
-  padding:0px;
-  height:22.5px;
-  text-align: center;
+.nav2{
+  background-color:#A9A9A9;
+  height:45px;
+  float: left;
+  width:25%;
 }
-.sign ul li:hover>a{
-  background-color: #ffa70f;
-  color:#000000;
+.nav3{
+  background-color:#808080;
+  height:45px;
+  float: left;
+  width:25%;
 }
-.sign a{
-  text-decoration: none;
-  color: #000000;
-  margin:0px;
-  padding:0px;
-  display:block;
+.nav4{
+  background-color:#696969;
+  height:45px;
+  float: left;
+  width:25%;
 }
+
+
 .warp{
   margin:0px;
   padding:0px;
@@ -274,6 +281,7 @@ body{
 .sport h2{
   margin:0px;
   padding:0px;
+  color: #008000;
 }
 .schools{
   width:100%;
@@ -285,6 +293,7 @@ body{
   height: 70px;
   float:left;
   margin-left:1%;
+  color: #008000;
 }
 .vs{
   width:30%;
@@ -292,12 +301,14 @@ body{
   float:left;
   margin-left:5%;
   margin-top:5px;
+  color: #008000;
 }
 .school2{
   width:30%;
   height: 70px;
   float:right;
   margin-right:1%;
+  color: #008000;
 }
 .score{
   width:100%;
@@ -310,10 +321,15 @@ body{
   height: 50px;
   float:left;
   margin-left:1%;
+  color: #008000;
 }
 .score2{
   width:30%;
   height: 50px;
   float:right;
   margin-right:1%;
+  color: #008000;
+}
+.box1{
+    background-image: url("https://photos.smugmug.com/Sports/Week-Ending-October-31-2014/i-LvwhWH4/0/L/AH_NHS%20football%20Ben%20Mason-L.jpg");
 }
