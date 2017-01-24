@@ -62,8 +62,8 @@ body{
   background-color: #ccc;
   padding: 0px;
   margin: 0px;
-  width:200px;
   float:left;
+  width: 200px;
 }
 .menu ul li ul li{
   float: left;
@@ -72,8 +72,6 @@ body{
 }
 .menu ul li ul li a{
   width: 200px;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
 }
 .menu ul li:hover > ul{
   display: block;
@@ -254,7 +252,6 @@ body{
   background-color: #ccc;
 }
 .events{
-  border-bottom:1px solid black;
   height:20px;
   text-align: center;
 }
@@ -267,7 +264,6 @@ body{
   background-color: #ccc;
 }
 .games{
-  border-bottom:1px solid black;
   height:20px;
   text-align: center;
 }
@@ -332,4 +328,5 @@ body{
 }
 .box1{
     background-image: url("https://photos.smugmug.com/Sports/Week-Ending-October-31-2014/i-LvwhWH4/0/L/AH_NHS%20football%20Ben%20Mason-L.jpg");
+    filter: grayscale(20);
 }

@@ -58,37 +58,56 @@
 
 
 .bscoach{
-  width:340px;
+  width:100%;
   border:2px solid black;
   text-align: center;
   background-color: #ccc;
+  margin: 0px;
+  padding: 0px;
+}
+.bscoach h2{
+    width:100%;
 }
 
 .bsmidpage{
-  margin: 40px;
-  height:400px;
+  width: 96%;
+  height:300px;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top:35px;
 }
 
 .bsimage{
   border:2px solid black;
   float: right;
+  height: 200px;
+  width: 40%;
 }
 .bsroster{
-  width:300px;
+  width:100%;
   border:2px solid #000000;
-  padding:20px;
   background-color: #000000;
   list-style: none;
   border-top:1px solid #000000;
+  float: left;
 }
 .bsroster h2{
   color: #ccc;
+  padding-left: 10%;
 }
-
-
+.bsroster ul li{
+    color:#fff;
+}
+.table{
+    width:96%;
+    margin-left:2%;
+    margin-right:2%;
+    margin-bottom:10px;
+}
 
 .bsteam{
   float:left;
+  width: 40%;
 }
 .bsroster ul{
   list-style: none;

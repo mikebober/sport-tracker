@@ -8,7 +8,11 @@
                 <h2>State Rank</h2>
             </div>
             <div class="statestat">
-                <h2>46</h2>
+                {{#if teams}}
+                {{#each team in teams}}
+                <h2>{{team.state}}</h2>
+                {{/each}}
+                {{/if}}
             </div>
         </div>
         <div class="FCIAC">
@@ -16,7 +20,11 @@
                 <h2>FCIAC Rank</h2>
             </div>
             <div class="FCIACstat">
-                <h2>10</h2>
+                {{#if teams}}
+                {{#each team in teams}}
+                <h2>{{team.fciac}}</h2>
+                {{/each}}
+                {{/if}}
             </div>
         </div>
     </div>
@@ -63,7 +71,11 @@
                 <h2>Wins</h2>
             </div>
             <div class="bswonnum">
-                <h2>2</h2>
+                {{#if teams}}
+                {{#each team in teams}}
+                <h2>{{team.wins}}</h2>
+                {{/each}}
+                {{/if}}
             </div>
         </div>
         <div class="bsloststats">
@@ -71,7 +83,11 @@
                 <h2>Lost</h2>
             </div>
             <div class="bslostnum">
-                <h2>5</h2>
+                {{#if teams}}
+                {{#each team in teams}}
+                <h2>{{team.loses}}</h2>
+                {{/each}}
+                {{/if}}
             </div>
         </div>
         <div class="bstiedstats">
@@ -79,7 +95,11 @@
                 <h2>Tied</h2>
             </div>
             <div class="bstiednum">
-                <h2>1</h2>
+                {{#if teams}}
+                {{#each team in teams}}
+                <h2>{{team.tied}}</h2>
+                {{/each}}
+                {{/if}}
             </div>
         </div>
     </div>
