@@ -3,30 +3,30 @@ import { Players } from '../../api/players/players.js';
 import { Teams } from '../../api/teams/teams.js';
 
 
-Template.Bsoccer.onCreated(function (){
+Template.Fieldhockey.onCreated(function (){
   this.autorun(() => {
     this.subscribe('players.public');
   })
 });
 
-Template.Bsoccer.helpers({
+Template.Fieldhockey.helpers({
     players() {
         return Players.find({
-            sport:'boys soccer'
+            sport:'fieldhockey'
         });
     }
 })
 
-Template.Bsoccer.onCreated(function (){
+Template.Fieldhockey.onCreated(function (){
   this.autorun(() => {
     this.subscribe('teams.public');
   })
 });
 
-Template.Bsoccer.helpers({
+Template.Fieldhockey.helpers({
     teams() {
         return Teams.find({
-            sport:'boys soccer'
+            sport:'fieldhockey'
         });
     }
 })

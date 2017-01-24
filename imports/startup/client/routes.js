@@ -10,6 +10,8 @@ import Page2 from '../../ui/views/page2.html';
 import Page3 from '../../ui/views/page3.html';
 import bsoccer from '../../ui/views/bsoccer.html';
 import football from '../../ui/views/football.html';
+import gsoccer from '../../ui/views/gsoccer.html';
+import fieldhockey from '../../ui/views/fieldhockey.html';
 // Add more templates here
 
 
