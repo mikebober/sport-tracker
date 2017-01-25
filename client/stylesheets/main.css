@@ -1,6 +1,6 @@
 /* CSS declarations go here */
 body{
-  background-color: #ffa70f;
+  background-color: #00B233;
   padding:inherit;
   margin: auto;
 }
@@ -43,7 +43,7 @@ body{
   width: 20%;
 }
 .menu ul li:hover>a{
-  background-color: #ffa70f;
+  background-color: #FF1919;
   color:#000000;
 }
 .menu ul li ul li {
@@ -138,12 +138,53 @@ body{
 .parent{
   height: 100%;
   width:70%;
-  background-image: url("http://www.planwallpaper.com/static/images/Cool-background-random-17506456-1869-1168.jpg");
+  background-color: #FF1919;
   margin:0;
   float: left;
   border-bottom:2px solid black;
   border-top:2px solid black;
 }
+.leftbutton{
+    height: 35px;
+    width:5%;
+    float: left;
+    background-color: #ccc;
+    margin-left: 1%;
+    margin-top: 130px;
+}
+.rightbutton{
+    height: 35px;
+    width:5%;
+    float: left;
+    background-color: #ccc;
+    margin-right: 1%;
+    margin-top: 130px;
+}
+.homepic{
+    height: 260px;
+    width: 84%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 17px;
+}
+.slide{
+    height: 260px;
+    width: 48%;
+    border: 1px solid black;
+    float:left;
+    background-color: #ccc;
+}
+.slide1{
+    height: 260px;
+    width: 48%;
+    border: 1px solid black;
+    float:right;
+    background-color: #ccc;
+}
+
+
+
 .child{
   width: 30%;
   height: 100%;
@@ -277,7 +318,7 @@ body{
 .sport h2{
   margin:0px;
   padding:0px;
-  color: #008000;
+  color: #000000;
 }
 .schools{
   width:100%;
@@ -289,7 +330,7 @@ body{
   height: 70px;
   float:left;
   margin-left:1%;
-  color: #008000;
+  color: #000000;
 }
 .vs{
   width:30%;
@@ -297,14 +338,14 @@ body{
   float:left;
   margin-left:5%;
   margin-top:5px;
-  color: #008000;
+  color: #000000;
 }
 .school2{
   width:30%;
   height: 70px;
   float:right;
   margin-right:1%;
-  color: #008000;
+  color: #000000;
 }
 .score{
   width:100%;
@@ -317,16 +358,12 @@ body{
   height: 50px;
   float:left;
   margin-left:1%;
-  color: #008000;
+  color: #000000;
 }
 .score2{
   width:30%;
   height: 50px;
   float:right;
   margin-right:1%;
-  color: #008000;
-}
-.box1{
-    background-image: url("https://photos.smugmug.com/Sports/Week-Ending-October-31-2014/i-LvwhWH4/0/L/AH_NHS%20football%20Ben%20Mason-L.jpg");
-    filter: grayscale(20);
+  color: #000000;
 }

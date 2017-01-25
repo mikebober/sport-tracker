@@ -19,8 +19,7 @@ Template.Fieldhockey.helpers({
 
 Template.Fieldhockey.onCreated(function (){
   this.autorun(() => {
-    this.subscribe('teams.public');
-  })
+    this.subscribe('teams.public')Fieldhockey
 });
 
 Template.Fieldhockey.helpers({
