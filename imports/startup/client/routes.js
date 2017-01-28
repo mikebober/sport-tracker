@@ -12,6 +12,26 @@ import bsoccer from '../../ui/views/bsoccer.html';
 import football from '../../ui/views/football.html';
 import gsoccer from '../../ui/views/gsoccer.html';
 import fieldhockey from '../../ui/views/fieldhockey.html';
+import baseball from '../../ui/views/baseball.html';
+import bbasketball from '../../ui/views/bbasketball.html';
+import bcrosscountry from '../../ui/views/bcrosscountry.html';
+import bindoortrack from '../../ui/views/bindoortrack.html';
+import blacrosse from '../../ui/views/blacrosse.html';
+import boutdoortrack from '../../ui/views/boutdoortrack.html';
+import bswimming from '../../ui/views/bswimming.html';
+import btennis from '../../ui/views/btennis.html';
+import gbasketball from '../../ui/views/gbasketball.html';
+import gcrosscountry from '../../ui/views/gcrosscountry.html';
+import gindoortrack from '../../ui/views/gindoortrack.html';
+import glacrosse from '../../ui/views/glacrosse.html';
+import golf from '../../ui/views/golf.html';
+import goutdoortrack from '../../ui/views/goutdoortrack.html';
+import gswimming from '../../ui/views/gswimming.html';
+import gtennis from '../../ui/views/gtennis.html';
+import hockey from '../../ui/views/hockey.html';
+import softball from '../../ui/views/softball.html';
+import volleyball from '../../ui/views/volleyball.html';
+import wrestiling from '../../ui/views/wrestiling.html';
 // Add more templates here
 
 

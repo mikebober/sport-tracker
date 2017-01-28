@@ -173,14 +173,14 @@ body{
     width: 48%;
     border: 1px solid black;
     float:left;
-    background-color: #ccc;
+    background-color: #000000;
 }
 .slide1{
     height: 260px;
     width: 48%;
     border: 1px solid black;
     float:right;
-    background-color: #ccc;
+    background-color: #000000;
 }
 
 

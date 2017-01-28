@@ -6,6 +6,7 @@ import { Teams } from '../../api/teams/teams.js';
 Template.Fieldhockey.onCreated(function (){
   this.autorun(() => {
     this.subscribe('players.public');
+    this.subscribe('teams.public')
   })
 });
 
@@ -14,15 +15,7 @@ Template.Fieldhockey.helpers({
         return Players.find({
             sport:'fieldhockey'
         });
-    }
-})
-
-Template.Fieldhockey.onCreated(function (){
-  this.autorun(() => {
-    this.subscribe('teams.public')Fieldhockey
-});
-
-Template.Fieldhockey.helpers({
+    },
     teams() {
         return Teams.find({
             sport:'fieldhockey'

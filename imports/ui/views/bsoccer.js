@@ -6,27 +6,19 @@ import { Teams } from '../../api/teams/teams.js';
 Template.Bsoccer.onCreated(function (){
   this.autorun(() => {
     this.subscribe('players.public');
+    this.subscribe('teams.public');
   })
 });
 
 Template.Bsoccer.helpers({
     players() {
         return Players.find({
-            sport:'boys soccer'
+            'sport':'boys soccer'
         });
-    }
-})
-
-Template.Bsoccer.onCreated(function (){
-  this.autorun(() => {
-    this.subscribe('teams.public');
-  })
-});
-
-Template.Bsoccer.helpers({
+    },
     teams() {
         return Teams.find({
-            sport:'boys soccer'
+            'sport':'boys soccer'
         });
     }
 })
