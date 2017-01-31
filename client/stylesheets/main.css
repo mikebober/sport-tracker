@@ -1,6 +1,6 @@
 /* CSS declarations go here */
 body{
-  background-color: #00B233;
+  background-color: #7189E5;
   padding:inherit;
   margin: auto;
 }
@@ -43,7 +43,7 @@ body{
   width: 20%;
 }
 .menu ul li:hover>a{
-  background-color: #FF1919;
+  background-color: #5E72BF;
   color:#000000;
 }
 .menu ul li ul li {
@@ -138,50 +138,13 @@ body{
 .parent{
   height: 100%;
   width:70%;
-  background-color: #FF1919;
+  background-color: #3F4C7F;
   margin:0;
   float: left;
   border-bottom:2px solid black;
   border-top:2px solid black;
 }
-.leftbutton{
-    height: 35px;
-    width:5%;
-    float: left;
-    background-color: #ccc;
-    margin-left: 1%;
-    margin-top: 130px;
-}
-.rightbutton{
-    height: 35px;
-    width:5%;
-    float: left;
-    background-color: #ccc;
-    margin-right: 1%;
-    margin-top: 130px;
-}
-.homepic{
-    height: 260px;
-    width: 84%;
-    float: left;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 17px;
-}
-.slide{
-    height: 260px;
-    width: 48%;
-    border: 1px solid black;
-    float:left;
-    background-color: #000000;
-}
-.slide1{
-    height: 260px;
-    width: 48%;
-    border: 1px solid black;
-    float:right;
-    background-color: #000000;
-}
+
 
 
 

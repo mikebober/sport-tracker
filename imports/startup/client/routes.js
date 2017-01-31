@@ -247,165 +247,18 @@ FlowRouter.route('/gsoccerplayers',{
     BlazeLayout.render('MainLayout',{main:'Gsoccerplayers'});
   }
 })
-FlowRouter.route('/bsoccerplayers',{
-  name:'bsoccerplayers',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Bsoccerplayers'});
-  }
-})
-FlowRouter.route('/footballplayers',{
-  name:'footballplayers',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Footballplayers'});
-  }
-})
-FlowRouter.route('/fieldhockeyplayers',{
-  name:'fieldhockeyplayers',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Fieldhockeyplayers'});
-  }
-})
-FlowRouter.route('/volleyballplayers',{
-  name:'volleyballplayers',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Volleyballplayers'});
-  }
-})
-FlowRouter.route('/bccp',{
-  name:'bccp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Bccp'});
-  }
-})
-FlowRouter.route('/gccp',{
-  name:'gccp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Gccp'});
-  }
-})
-FlowRouter.route('/bbp',{
-  name:'bbp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Bbp'});
-  }
-})
-FlowRouter.route('/bitp',{
-  name:'bitp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Bitp'});
-  }
-})
-FlowRouter.route('/gitp',{
-  name:'gitp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Gitp'});
-  }
-})
-FlowRouter.route('/gswimmingp',{
-  name:'gswimmingp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Gswimmingp'});
-  }
-})
-FlowRouter.route('/bsp',{
-  name:'bsp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Bsp'});
-  }
-})
-FlowRouter.route('/hp',{
-  name:'hp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Hp'});
-  }
-})
-FlowRouter.route('/wp',{
-  name:'wp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Wp'});
-  }
-})
-FlowRouter.route('/bp',{
-  name:'bp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Bp'});
-  }
-})
-FlowRouter.route('/sp',{
-  name:'sp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Sp'});
-  }
-})
-FlowRouter.route('/botp',{
-  name:'botp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Botp'});
-  }
-})
-FlowRouter.route('/gotp',{
-  name:'gotp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Gotp'});
-  }
-})
-FlowRouter.route('/glp',{
-  name:'glp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Glp'});
-  }
-})
-FlowRouter.route('/blp',{
-  name:'blp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Blp'});
-  }
-})
-FlowRouter.route('/btp',{
-  name:'btp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Btp'});
-  }
-})
-FlowRouter.route('/gtp',{
-  name:'gtp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Gtp'});
-  }
-})
-FlowRouter.route('/gp',{
-  name:'gp',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Gp'});
-  }
-})
 FlowRouter.route('/team',{
   name:'team',
   action(){
 
     BlazeLayout.render('MainLayout',{main:'Teams'});
+  }
+})
+FlowRouter.route('/players',{
+  name:'players',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Players'});
   }
 })
 FlowRouter.route('/players',{

@@ -16,6 +16,9 @@ Teams.schema = new SimpleSchema({
 	sport: { type: String },
   	wins: { type: String },
 	loses: { type: String },
+	ties: { type: String },
+	state: { type: String },
+	fciac: { type: String },
 	player: { type: [Object] }
 });
 

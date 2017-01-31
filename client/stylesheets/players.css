@@ -11,7 +11,7 @@ input[type=text]{
   border-radius: 4px;
 }
 button[type=submit]{
-  background-color: #4CAF50;
+  background-color: #5E72BF;
   color: white;
   width:60%;
   margin-left:20%;
@@ -21,7 +21,7 @@ button[type=submit]{
   border-radius: 4px;
 }
 button[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #5E72BF;
 }
 form{
   width:60%;

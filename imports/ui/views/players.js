@@ -10,19 +10,18 @@ Template.Players.events({
       firstName: tmpl.find('#firstName').value,
       lastName: tmpl.find('#lastName').value,
       goals: tmpl.find('#goals').value,
-      time: tmpl.find('#time').value,
+      assits: tmpl.find('#assits').value,
       sport: tmpl.find('#sport').value
       //creates object with forum data
     };
 
-    Players.insert(player);
-
+    //emptys field
     tmpl.find('#firstName').value="";
     tmpl.find('#lastName').value="";
     tmpl.find('#goals').value="";
-    tmpl.find('#time').value="";
+    tmpl.find('#assits').value="";
     tmpl.find('#sport').value="";
-    //emptys field
 
+    Players.insert(player);
   }
 });

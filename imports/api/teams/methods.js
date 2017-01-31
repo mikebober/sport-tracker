@@ -12,16 +12,22 @@ export const addTeam = new ValidatedMethod({
 		school: { type: String },
         sport: { type: String },
         wins: { type: String },
-        loses: { type: String }
+        loses: { type: String },
+		ties: { type: String },
+		state: { type: String },
+		fciac: { type: String }
 	}).validator(),
 
-	run({ school, sport, wins, loses }) {
+	run({ school, sport, wins, loses, ties, state, fciac }) {
 		// Inserts the object into the collection
 		Teams.insert({
 			school,
 			sport,
 			wins,
-			loses
+			loses,
+			ties,
+			state,
+			fciac
 		});
 	}
 });
