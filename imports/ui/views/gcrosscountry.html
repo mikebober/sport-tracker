@@ -8,7 +8,11 @@
         <h2>State Rank</h2>
       </div>
       <div class="statestat">
-        <h2>46</h2>
+          {{#if teams}}
+          {{#each team in teams}}
+          <h2>{{team.state}}</h2>
+          {{/each}}
+          {{/if}}
       </div>
     </div>
     <div class="FCIAC">
@@ -16,7 +20,11 @@
         <h2>FCIAC Rank</h2>
       </div>
       <div class="FCIACstat">
-        <h2>10</h2>
+          {{#if teams}}
+          {{#each team in teams}}
+          <h2>{{team.fciac}}</h2>
+          {{/each}}
+          {{/if}}
       </div>
     </div>
   </div>
@@ -29,69 +37,29 @@
         <h2>Coach:  Carlos</h2>
       </div>
       <div class="bsroster">
-        <ul>
-          <li><a href="gccp">Roster</a></li>
-        </ul>
-        <table border="1px;">
-          <tr>
-            <th>Player Name</th>
-            <th>Stat</th>
-            <th>Stat</th>
-            <th>Stat</th>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
+        <h2>Roster</h2>
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Goals</th>
+                <th>Assits</th>
+            </tr>
+            {{#if players}}
+            {{#each player in players}}
+            <tr>
+                <td>{{player.firstName}}</td>
+                <td>{{player.lastName}}</td>
+                <td>{{player.goals}}</td>
+                <td>{{player.assits}}</td>
+            </tr>
+            {{/each}}
+            {{/if}}
         </table>
       </div>
     </div>
     <div class="bsimage">
-      <img src="http://ww4.hdnux.com/photos/06/43/01/1716323/4/1024x1024.jpg" height="377px">
+      <img src="" height="377px">
     </div>
   </div>
 
@@ -101,7 +69,11 @@
         <h2>Wins</h2>
       </div>
       <div class="bswonnum">
-        <h2>2</h2>
+          {{#if teams}}
+          {{#each team in teams}}
+          <h2>{{team.wins}}</h2>
+          {{/each}}
+          {{/if}}
       </div>
     </div>
     <div class="bsloststats">
@@ -109,7 +81,11 @@
         <h2>Lost</h2>
       </div>
       <div class="bslostnum">
-        <h2>5</h2>
+          {{#if teams}}
+          {{#each team in teams}}
+          <h2>{{team.loses}}</h2>
+          {{/each}}
+          {{/if}}
       </div>
     </div>
     <div class="bstiedstats">
@@ -117,7 +93,11 @@
         <h2>Tied</h2>
       </div>
       <div class="bstiednum">
-        <h2>1</h2>
+          {{#if teams}}
+          {{#each team in teams}}
+          <h2>{{team.ties}}</h2>
+          {{/each}}
+          {{/if}}
       </div>
     </div>
   </div>

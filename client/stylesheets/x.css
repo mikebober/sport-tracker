@@ -1,0 +1,12 @@
+@media only screen and (max-width: 400px){
+    .box{
+      width:100%;
+    }
+    .box-left{
+        float:none;
+    }
+    .box-right{
+        float:none;
+    }
+
+}

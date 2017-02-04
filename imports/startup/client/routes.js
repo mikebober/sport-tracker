@@ -80,7 +80,7 @@ FlowRouter.route('/gsoccer',{
   name:'gsoccer',
   action(){
 
-    BlazeLayout.render('MainLayout',{main:'gsoccer'});
+    BlazeLayout.render('MainLayout',{main:'Gsoccer'});
   }
 })
 FlowRouter.route('/football',{
