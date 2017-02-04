@@ -6,7 +6,7 @@
 
 .ranks{
   margin: 20px;
-  height: 150px;
+
 }
 
 .statehead{
@@ -70,18 +70,14 @@
 }
 
 .bsmidpage{
-  width: 96%;
-  height:300px;
-  margin-left:2%;
-  margin-right:2%;
-  margin-top:35px;
+  margin:20px;
 }
-
 .bsimage{
-  border:2px solid black;
-  float: right;
-  height: 200px;
-  width: 40%;
+    height:200px;
+    width: 40%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 17%;
 }
 .bsroster{
   width:100%;
@@ -114,8 +110,8 @@
 }
 
 .bsstats{
-  height:100px;
-  margin:40px;
+  
+  margin:20px;
 }
 .bswonstats{
   height:100px;
@@ -194,4 +190,17 @@ tr:nth-child(even) {
 
 .table{
     background-color: #ccc;
+}
+@media only screen and (max-width: 811px){
+    .bsteam{
+        width:100%;
+    }
+    .bsimage{
+        width:100%;
+        margin:0;
+        margin-top: 10px;
+    }
+    .bsstats{
+        margin-top:10px;
+    }
 }

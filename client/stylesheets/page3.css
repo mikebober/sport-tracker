@@ -7,3 +7,33 @@
     height: 100px;
     background-color: red;
 }
+.one{
+    background-color: #987890;
+}
+.one1{
+    height: 300px;
+    width: 40%;
+    border: 1px solid black;
+    float: left;
+    margin-right: 10%;
+    background-color: #456;
+}
+.one2{
+    height: 200px;
+    width: 30%;
+    border: 1px solid black;
+    float:left;
+    background-color: #000;
+}
+@media only screen and (max-width: 500px){
+    .one1{
+        float:none;
+        width:100%;
+        margin:0;
+    }
+    .one2{
+        float:none;
+        width:100%;
+        margin:0;
+    }
+}
