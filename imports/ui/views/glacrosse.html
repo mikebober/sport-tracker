@@ -1,124 +1,107 @@
 <template name="Glacrosse">
-  <div class="bshead">
-    <h1>Girls lacrosse</h1>
-  </div>
-  <div class="ranks">
-    <div class="state">
-      <div class="statehead">
-        <h2>State Rank</h2>
-      </div>
-      <div class="statestat">
-        <h2>46</h2>
-      </div>
+    <div class="bshead">
+        <h1>Girls Lacrosse</h1>
     </div>
-    <div class="FCIAC">
-      <div class="FCIAChead">
-        <h2>FCIAC Rank</h2>
-      </div>
-      <div class="FCIACstat">
-        <h2>10</h2>
-      </div>
+    <div class="ranks clearfix">
+        <div class="state">
+            <div class="statehead">
+                <h2>State Rank</h2>
+            </div>
+            <div class="statestat">
+                {{#if teams}}
+                {{#each team in teams}}
+                <h2>{{team.state}}</h2>
+                {{/each}}
+                {{/if}}
+            </div>
+        </div>
+        <div class="FCIAC">
+            <div class="FCIAChead">
+                <h2>FCIAC Rank</h2>
+            </div>
+            <div class="FCIACstat">
+                {{#if teams}}
+                {{#each team in teams}}
+                <h2>{{team.fciac}}</h2>
+                {{/each}}
+                {{/if}}
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="piecharts">
-    <h1>Where pie charts will be located</h1>
-  </div>
-  <div class="bsmidpage">
-    <div class="bsteam">
-      <div class="bscoach">
-        <h2>Coach:  Coach</h2>
-      </div>
-      <div class="bsroster">
-        <ul>
-          <li><a href="glp">Roster</a></li>
-        </ul>
-        <table border="1px;">
-          <tr>
-            <th>Player Name</th>
-            <th>Stat</th>
-            <th>Stat</th>
-            <th>Stat</th>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-          <tr>
-            <td>player 1</td>
-            <td>####</td>
-            <td>####</td>
-            <td>####</td>
-          </tr>
-        </table>
-      </div>
+    <div class="piecharts">
+        <h1>Where pie charts will be located</h1>
     </div>
-    <div class="bsimage">
-      <img src="http://ww2.hdnux.com/photos/03/43/14/930621/7/628x471.jpg" height="400px">
+    <div class="bsmidpage clearfix">
+        <div class="bsteam">
+            <div class="bscoach">
+                <h2>Coach: Surace</h2>
+            </div>
+            <div class="bsroster">
+                <h2><a href="gsoccerplayers">Roster</a></h2>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Goals</th>
+                            <th>Assits</th>
+                        </tr>
+                        {{#if players}}
+                        {{#each player in players}}
+                        <tr>
+                            <td>{{player.firstName}}</td>
+                            <td>{{player.lastName}}</td>
+                            <td>{{player.goals}}</td>
+                            <td>{{player.assits}}</td>
+                        </tr>
+                        {{/each}}
+                        {{/if}}
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="bsimage">
+            <img src="" height="100%;"
+            width="100%;">
+        </div>
     </div>
-  </div>
 
-  <div class="bsstats">
-    <div class="bswonstats">
-      <div class="bswon">
-        <h2>Wins</h2>
-      </div>
-      <div class="bswonnum">
-        <h2>2</h2>
-      </div>
+    <div class="bsstats clearfix">
+        <div class="bswonstats">
+            <div class="bswon">
+                <h2>Wins</h2>
+            </div>
+            <div class="bswonnum">
+                {{#if teams}}
+                {{#each team in teams}}
+                <h2>{{team.wins}}</h2>
+                {{/each}}
+                {{/if}}
+            </div>
+        </div>
+        <div class="bsloststats">
+            <div class="bslost">
+                <h2>Lost</h2>
+            </div>
+            <div class="bslostnum">
+                {{#if teams}}
+                {{#each team in teams}}
+                <h2>{{team.loses}}</h2>
+                {{/each}}
+                {{/if}}
+            </div>
+        </div>
+        <div class="bstiedstats">
+            <div class="bstied">
+                <h2>Tied</h2>
+            </div>
+            <div class="bstiednum">
+                {{#if teams}}
+                {{#each team in teams}}
+                <h2>{{team.ties}}</h2>
+                {{/each}}
+                {{/if}}
+            </div>
+        </div>
     </div>
-    <div class="bsloststats">
-      <div class="bslost">
-        <h2>Lost</h2>
-      </div>
-      <div class="bslostnum">
-        <h2>5</h2>
-      </div>
-    </div>
-    <div class="bstiedstats">
-      <div class="bstied">
-        <h2>Tied</h2>
-      </div>
-      <div class="bstiednum">
-        <h2>1</h2>
-      </div>
-    </div>
-  </div>
 </template>

@@ -32,6 +32,7 @@ import hockey from '../../ui/views/hockey.html';
 import softball from '../../ui/views/softball.html';
 import volleyball from '../../ui/views/volleyball.html';
 import wrestiling from '../../ui/views/wrestiling.html';
+import data from '../../ui/views/data.html';
 // Add more templates here
 
 
@@ -266,5 +267,12 @@ FlowRouter.route('/players',{
   action(){
 
     BlazeLayout.render('MainLayout',{main:'Players'});
+  }
+})
+FlowRouter.route('/data',{
+  name:'data',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Data'});
   }
 })

@@ -67,16 +67,16 @@ body{
   padding: 0px;
   margin: 0px;
   float:left;
-  width: 200px;
+  width: 100%;
 }
 .menu ul li ul li{
   float: left;
   text-align: center;
   clear: left;
+  background-color: #ccc;
+  width: 100%;
 }
-.menu ul li ul li a{
-  width: 200px;
-}
+
 .menu ul li:hover > ul{
   display: block;
 }
@@ -89,7 +89,6 @@ body{
   margin: 0px;
   left: 100%;
   top: 0;
-  margin-left: 150px;
 }
 
 
