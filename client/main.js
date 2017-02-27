@@ -22,7 +22,7 @@ import '/imports/ui/views/gsoccer.js';
 import '/imports/ui/views/gcrosscountry.js';
 //import '/imports/ui/views/gindoortrack.js';
 //import '/imports/ui/views/glacrosse.js';
-//import '/imports/ui/views/golf.js';
+import '/imports/ui/views/golf.js';
 //import '/imports/ui/views/goutdoortrack.js';
 //import '/imports/ui/views/gswimming.js';
 //import '/imports/ui/views/gtennis.js';

@@ -11,6 +11,7 @@ Template.Players.events({
       lastName: tmpl.find('#lastName').value,
       goals: tmpl.find('#goals').value,
       assits: tmpl.find('#assits').value,
+      avgdrive: tmpl.find('#avgdrive').value,
       sport: tmpl.find('#sport').value
       //creates object with forum data
     };
@@ -20,6 +21,7 @@ Template.Players.events({
     tmpl.find('#lastName').value="";
     tmpl.find('#goals').value="";
     tmpl.find('#assits').value="";
+    tmpl.find('#avgdrive').value="";
     tmpl.find('#sport').value="";
 
     Players.insert(player);
