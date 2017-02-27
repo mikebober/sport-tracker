@@ -70,6 +70,9 @@ body{
   width: 100%;
   box-shadow: 0 2px 2px #333;
 }
+.menu ul li ul li a{
+    height: 40px;
+}
 .menu ul li ul li{
   float: left;
   text-align: center;

@@ -12,7 +12,10 @@ Template.Players.events({
       goals: tmpl.find('#goals').value,
       assits: tmpl.find('#assits').value,
       avgdrive: tmpl.find('#avgdrive').value,
-      sport: tmpl.find('#sport').value
+      sport: tmpl.find('#sport').value,
+      firstNameGolf: tmpl.find('#firstNameGolf').value,
+      lastNameGolf: tmpl.find('#lastNameGolf').value,
+      sportGolf: tmpl.find('#sportGolf').value
       //creates object with forum data
     };
 
@@ -23,6 +26,9 @@ Template.Players.events({
     tmpl.find('#assits').value="";
     tmpl.find('#avgdrive').value="";
     tmpl.find('#sport').value="";
+    tmpl.find('#firstNameGolf').value="";
+    tmpl.find('#lastNameGolf').value="";
+    tmpl.find('#sportGolf').value="";
 
     Players.insert(player);
   }

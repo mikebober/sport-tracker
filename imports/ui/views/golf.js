@@ -13,7 +13,7 @@ Template.Golf.onCreated(function (){
 Template.Golf.helpers({
     players() {
         return Players.find({
-            'sport':'golf'
+            'sportGolf':'golf'
         });
     },
     teams() {
