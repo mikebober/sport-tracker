@@ -1,0 +1,45 @@
+<template name="Updateteam">
+    {{#if currentUser}}
+
+    <form>
+      <label for="sport">sport</label>
+      <select name="sport" id="sport" required>
+          <option value="boysSoccer">Boys Soccer</option>
+          <option value="girlsSoccer">Girls Soccer</option>
+          <option value="fieldhockey">Fieldhockey</option>
+          <option value="football">Football</option>
+          <option value="volleyball">Volleyball</option>
+          <option value="boys cross country">Boys Cross Country</option>
+          <option value="girls cross country">Girls Cross Country</option>
+          <option value="boys basketball">Boys Basketball</option>
+          <option value="girls basketball">Girls Basketball</option>
+          <option value="boys indoor track">Boys Indoor Track</option>
+          <option value="girls indoor track">Girls Indoor Track</option>
+          <option value="boys swimming">Boys Swimming</option>
+          <option value="girls swimming">Girls Swimming</option>
+          <option value="wrestiling">Wrestling</option>
+          <option value="hockey">Hockey</option>
+      </select>
+
+      <label for="wins">wins</label>
+      <input type="text" id="wins" required="true">
+
+      <label for="loses">loses</label>
+      <input type="text" id="loses" required="true">
+
+      <label for="ties">ties</label>
+      <input type="text" id="ties" required="true">
+
+      <label for="state">state</label>
+      <input type="text" id="state" required="true">
+
+      <label for="fciac">fciac</label>
+      <input type="text" id="fciac" required="true">
+
+      <button type="submit">Update Team</button>
+    </form>
+    {{else}}
+    <h2>You would of thought nigge</h2>
+    {{/if}}
+
+</template>

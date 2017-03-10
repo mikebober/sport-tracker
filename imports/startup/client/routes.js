@@ -2,8 +2,8 @@ import { FlowRouter } from 'meteor/kadira:flow-router';
 import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 
 import MainLayout from '../../ui/layouts/mainlayout.html';
-import Teams from '../../ui/views/teams.html';
-import Players from '../../ui/views/players.html';
+import Teams from '../../ui/views/data/teams.html';
+import Players from '../../ui/views/data/players.html';
 import Home from '../../ui/views/home.html';
 import Page1 from '../../ui/views/page1.html';
 import Page2 from '../../ui/views/page2.html';
@@ -32,7 +32,11 @@ import hockey from '../../ui/views/hockey.html';
 import softball from '../../ui/views/softball.html';
 import volleyball from '../../ui/views/volleyball.html';
 import wrestiling from '../../ui/views/wrestiling.html';
-import data from '../../ui/views/data.html';
+import data from '../../ui/views/data/data.html';
+import updateteam from '../../ui/views/data/updateteam.html';
+import updateplayer from '../../ui/views/data/updateplayer.html';
+
+
 // Add more templates here
 
 
@@ -274,5 +278,19 @@ FlowRouter.route('/data',{
   action(){
 
     BlazeLayout.render('MainLayout',{main:'Data'});
+  }
+})
+FlowRouter.route('/updateteam',{
+  name:'updateteam',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Updateteam'});
+  }
+})
+FlowRouter.route('/updateplayer',{
+  name:'updateplayer',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Updateplayer'});
   }
 })

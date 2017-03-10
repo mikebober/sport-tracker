@@ -3,22 +3,22 @@ import { Players } from '../../api/players/players.js';
 import { Teams } from '../../api/teams/teams.js';
 
 
-Template.Gsoccer.onCreated(function (){
+Template.Softball.onCreated(function (){
   this.autorun(() => {
     this.subscribe('players.public');
     this.subscribe('teams.public');
   })
 });
 
-Template.Gsoccer.helpers({
+Template.Softball.helpers({
     players() {
         return Players.find({
-            'sport':'girls soccer'
+            'sport':'softball'
         });
     },
     teams() {
         return Teams.find({
-            'sport':'girlsSoccer'
+            'sport':'softball'
         });
     }
 })

@@ -1,5 +1,5 @@
-import { Teams } from '../../api/teams/teams.js';
-import { addTeam } from '../../api/teams/methods.js';
+import { Teams } from '../../../api/teams/teams.js';
+import { addTeam } from '../../../api/teams/methods.js';
 
 Template.Teams.events({
   'submit': (e, tmpl) => {

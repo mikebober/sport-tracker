@@ -1,5 +1,5 @@
-import { Players } from '../../api/players/players.js';
-import { addPlayer } from '../../api/players/methods.js';
+import { Players } from '../../../api/players/players.js';
+import { addPlayer } from '../../../api/players/methods.js';
 
 Template.Players.events({
   'submit': (e, tmpl) => {

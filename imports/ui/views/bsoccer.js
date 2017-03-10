@@ -18,7 +18,7 @@ Template.Bsoccer.helpers({
     },
     teams() {
         return Teams.find({
-            'sport':'boys soccer'
+            'sport':'boysSoccer'
         });
     }
 })
