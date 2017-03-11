@@ -110,7 +110,7 @@
 }
 
 .bsstats{
-  
+
   margin:20px;
 }
 .bswonstats{
@@ -190,6 +190,13 @@ tr:nth-child(even) {
 
 .table{
     background-color: #ccc;
+    margin-bottom:20px;
+}
+.bsrosterT{
+    width:100%;
+}
+.bsteamT{
+    background-color: #000000;
 }
 @media only screen and (max-width: 811px){
     .bsteam{

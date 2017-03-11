@@ -1,7 +1,7 @@
 label{
   width:60%;
   margin-left:20%;
-  margin-right:20%;
+
 }
 input[type=text]{
   width:60%;
@@ -31,4 +31,8 @@ form{
   background-color: #ccc;
   margin-top:10px;
   border-radius: 4px;
+}
+#sportTrack{
+    margin-right:30%;
+    margin-left:20%;
 }

@@ -13,7 +13,7 @@ Template.Boutdoortrack.onCreated(function (){
 Template.Boutdoortrack.helpers({
     players() {
         return Players.find({
-            'sport':'boys outdoor track'
+            'sportTrack':'boys outdoor track'
         });
     },
     teams() {

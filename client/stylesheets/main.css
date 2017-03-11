@@ -284,6 +284,17 @@ body{
   color: #000000;
 }
 
+.table{
+    width:none;
+}
+.table h3{
+    margin:0;
+    margin-bottom:10px;
+}
+.input h2{
+    text-align: center;
+    margin-bottom:0;
+}
 @media only screen and (max-width: 811px){
     .box{
       width:100%;

@@ -13,7 +13,7 @@ Template.Gindoortrack.onCreated(function (){
 Template.Gindoortrack.helpers({
     players() {
         return Players.find({
-            'sport':'girls girls indoor track'
+            'sportTrack':'girls indoor track'
         });
     },
     teams() {

@@ -13,7 +13,7 @@ Template.Btennis.onCreated(function (){
 Template.Btennis.helpers({
     players() {
         return Players.find({
-            'sport':'boys tennis'
+            'sportT':'boys tennis'
         });
     },
     teams() {
