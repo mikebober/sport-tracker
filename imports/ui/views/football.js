@@ -13,7 +13,7 @@ Template.Football.onCreated(function (){
 Template.Football.helpers({
     players() {
         return Players.find({
-            'sport':'football'
+            'sportF':'football'
         });
     },
     teams() {

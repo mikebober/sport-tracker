@@ -13,7 +13,7 @@ Template.Volleyball.onCreated(function (){
 Template.Volleyball.helpers({
     players() {
         return Players.find({
-            'sport':'volleyball'
+            'sportV':'volleyball'
         });
     },
     teams() {

@@ -1,6 +1,13 @@
 <template name="Players">
 <div class="input">
     <form>
+    <label for="sport">Sport</label>
+    <select name="sport" id="sport" required>
+        <option value="boys soccer">Boys Soccer</option>
+        <option value="girls soccer">Girls Soccer</option>
+        <option value="fieldhockey">Fieldhockey</option>
+    </select>
+
       <label for="firstName">First Name</label>
       <input type="text" id="firstName" required="true">
 
@@ -16,10 +23,65 @@
       <label for="assits">Assits</label>
       <input type="text" id="assits" required="true" width="100%;">
 
-      <label for="sport">Sport</label>
-      <input type="text" id="sport" required="true" width="100%;">
-
       <button type="submit">Add Player</button>
+    </form>
+
+    <h2>Football</h2>
+    <form>
+        <label for="sportF">Sport</label>
+        <input type="text" id="sportF" required="true">
+
+        <label for="firstNameF">First Name</label>
+        <input type="text" id="firstNameF" required="true">
+
+        <label for="lastNameF">Last Name</label>
+        <input type="text" id="lastNameF" required="true">
+
+        <label for="positionF">Position</label>
+        <input type="text" id="positionF" required="true">
+
+        <label for="reciving">Receving Yards</label>
+        <input type="text" id="reciving" required="true">
+
+        <label for="rush">Rushing Yards</label>
+        <input type="text" id="rush" required="true">
+
+        <label for="td">Touch Downs</label>
+        <input type="text" id="td" required="true">
+
+        <label for="tackels">Tackels</label>
+        <input type="text" id="tackels" required="true">
+
+        <label for="sacks">Sacks</label>
+        <input type="text" id="sacks" required="true">
+
+        <label for="inter">Interseptions</label>
+        <input type="text" id="inter" required="true">
+
+        <button type="submit">Add Player</button>
+    </form>
+
+    <h2>Volleyball</h2>
+    <form>
+        <label for="firstNameV">First Name</label>
+        <input type="text" id="firstNameV" required="true">
+
+        <label for="lastNameV">Last Name</label>
+        <input type="text" id="lastNameV" required="true">
+
+        <label for="kills">Kills</label>
+        <input type="text" id="kills" required="true">
+
+        <label for="points">Points</label>
+        <input type="text" id="points" required="true">
+
+        <label for="assitsV">Assits</label>
+        <input type="text" id="assitsV" required="true">
+
+        <label for="sportV">Sport</label>
+        <input type="text" id="sportV" required="true">
+
+        <button type="submit">Add Player</button>
     </form>
 
     <h2>Golf</h2>

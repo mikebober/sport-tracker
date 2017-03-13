@@ -41,8 +41,25 @@ Template.Players.events({
       pole: tmpl.find('#pole').value,
       shortput: tmpl.find('#shortput').value,
       discces: tmpl.find('#discces').value,
-      javulin: tmpl.find('#javulin').value
-
+      javulin: tmpl.find('#javulin').value,
+      //football
+      firstNameF: tmpl.find('#firstNameF').value,
+      positionF: tmpl.find('#positionF').value,
+      lastNameF: tmpl.find('#lastNameF').value,
+      sportF: tmpl.find('#sportF').value,
+      reciving: tmpl.find('#reciving').value,
+      rush: tmpl.find('#rush').value,
+      td: tmpl.find('#td').value,
+      tackels: tmpl.find('#tackels').value,
+      sacks: tmpl.find('#sacks').value,
+      inter: tmpl.find('#inter').value,
+      //volleyball
+      firstNameV: tmpl.find('#firstNameV').value,
+      lastNameV: tmpl.find('#lastNameV').value,
+      kills: tmpl.find('#kills').value,
+      points: tmpl.find('#points').value,
+      assitsV: tmpl.find('#assitsV').value,
+      sportV: tmpl.find('#sportV').value
       //creates object with forum data
     };
 
@@ -81,8 +98,24 @@ Template.Players.events({
     tmpl.find('#shortput').value="";
     tmpl.find('#discces').value="";
     tmpl.find('#javulin').value="";
-
-
+    //football
+    tmpl.find('#firstNameF').value="";
+    tmpl.find('#lastNameF').value="";
+    tmpl.find('#positionF').value="";
+    tmpl.find('#sportF').value="";
+    tmpl.find('#reciving').value="";
+    tmpl.find('#rush').value="";
+    tmpl.find('#td').value="";
+    tmpl.find('#tackels').value="";
+    tmpl.find('#sacks').value="";
+    tmpl.find('#inter').value="";
+    //volleyball
+    tmpl.find('#firstNameV').value="";
+    tmpl.find('#lastNameV').value="";
+    tmpl.find('#kills').value="";
+    tmpl.find('#points').value="";
+    tmpl.find('#assitsV').value="";
+    tmpl.find('#sportV').value="";
     Players.insert(player);
   }
 });

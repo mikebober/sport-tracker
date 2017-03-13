@@ -32,37 +32,44 @@
         <h1>Where pie charts will be located</h1>
     </div>
     <div class="bsmidpage clearfix">
-        <div class="bsteam">
+        <div class="bsteamT">
             <div class="bscoach">
                 <h2>Coach:  Ireland</h2>
             </div>
-            <div class="bsroster">
+            <div class="bsrosterT">
                 <h2>Roster</h2>
                 <div class="table">
                     <table>
                         <tr>
                             <th>Firstname</th>
                             <th>Lastname</th>
-                            <th>Goals</th>
-                            <th>Assits</th>
+                            <th>Position</th>
+                            <th>Receiving Yards</th>
+                            <th>Rushing Yards</th>
+                            <th>TD's</th>
+                            <th>Tackles</th>
+                            <th>Sacks</th>
+                            <th>Interseptions</th>
                         </tr>
                         {{#if players}}
                         {{#each player in players}}
                         <tr>
-                            <td>{{player.firstName}}</td>
-                            <td>{{player.lastName}}</td>
-                            <td>{{player.goals}}</td>
-                            <td>{{player.assits}}</td>
+                            <td>{{player.firstNameF}}</td>
+                            <td>{{player.lastNameF}}</td>
+                            <td>{{player.positionF}}</td>
+                            <td>{{player.reciving}}</td>
+                            <td>{{player.rush}}</td>
+                            <td>{{player.td}}</td>
+                            <td>{{player.tackels}}</td>
+                            <td>{{player.sacks}}</td>
+                            <td>{{player.inter}}</td>
+
                         </tr>
                         {{/each}}
                         {{/if}}
                     </table>
                 </div>
             </div>
-        </div>
-        <div class="bsimage">
-            <img src="http://www.therudenreport.com/wp-content/uploads/2015/09/tchsvnhs6.jpg" height="100%;"
-            width="100%">
         </div>
     </div>
     <div class="bsstats clearfix">
