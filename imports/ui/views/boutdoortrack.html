@@ -39,24 +39,77 @@
             <div class="bsroster">
                 <h2>Roster</h2>
                 <div class="table">
+                    {{#if players}}
+                    {{#each player in sprinting}}
                     <table>
+                        <h3>Sprinting</h3>
                         <tr>
                             <th>Firstname</th>
                             <th>Lastname</th>
-                            <th>Goals</th>
-                            <th>Assits</th>
+                            <th>five</th>
+                            <th>one</th>
+                            <th>two</th>
+                            <th>300</th>
                         </tr>
-                        {{#if players}}
-                        {{#each player in players}}
                         <tr>
-                            <td>{{player.firstName}}</td>
-                            <td>{{player.lastName}}</td>
-                            <td>{{player.goals}}</td>
-                            <td>{{player.assits}}</td>
+                            <td>{{player.firstNameTrack}}</td>
+                            <td>{{player.lastNameTrack}}</td>
+                            <td>{{player.five}}</td>
+                            <td>{{player.one}}</td>
+                            <td>{{player.two}}</td>
+                            <td>{{player.three}}</td>
                         </tr>
-                        {{/each}}
-                        {{/if}}
                     </table>
+                    {{/each}}
+                    {{/if}}
+
+                    {{#if players}}
+                    {{#each player in distance}}
+                    <table>
+                        <h3>Distance</h3>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>400</th>
+                            <th>800</th>
+                            <th>mile</th>
+                            <th>2 mile</th>
+                        </tr>
+                        <tr>
+                            <td>{{player.firstNameTrack}}</td>
+                            <td>{{player.lastNameTrack}}</td>
+                            <td>{{player.four}}</td>
+                            <td>{{player.eight}}</td>
+                            <td>{{player.oneMile}}</td>
+                            <td>{{player.twoMile}}</td>
+                        </tr>
+                    </table>
+                    {{/each}}
+                    {{/if}}
+
+                    {{#if players}}
+                    {{#each player in field}}
+                    <table>
+                        <h3>Field</h3>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Long Jump</th>
+                            <th>High Jump</th>
+                            <th>Tripple Jump</th>
+                            <th>pole volt</th>
+                        </tr>
+                        <tr>
+                            <td>{{player.firstNameTrack}}</td>
+                            <td>{{player.lastNameTrack}}</td>
+                            <td>{{player.longJump}}</td>
+                            <td>{{player.highJump}}</td>
+                            <td>{{player.trippleJump}}</td>
+                            <td>{{player.pole}}</td>
+                        </tr>
+                    </table>
+                    {{/each}}
+                    {{/if}}
                 </div>
             </div>
         </div>

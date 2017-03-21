@@ -4,6 +4,7 @@ import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 import MainLayout from '../../ui/layouts/mainlayout.html';
 import Teams from '../../ui/views/data/teams.html';
 import Players from '../../ui/views/data/players.html';
+import Basketplayers from '../../ui/views/data/basketplayers.html';
 import Home from '../../ui/views/home.html';
 import Page1 from '../../ui/views/page1.html';
 import Page2 from '../../ui/views/page2.html';
@@ -14,19 +15,15 @@ import gsoccer from '../../ui/views/gsoccer.html';
 import fieldhockey from '../../ui/views/fieldhockey.html';
 import baseball from '../../ui/views/baseball.html';
 import bbasketball from '../../ui/views/bbasketball.html';
-import bcrosscountry from '../../ui/views/bcrosscountry.html';
 import bindoortrack from '../../ui/views/bindoortrack.html';
 import blacrosse from '../../ui/views/blacrosse.html';
 import boutdoortrack from '../../ui/views/boutdoortrack.html';
-import bswimming from '../../ui/views/bswimming.html';
 import btennis from '../../ui/views/btennis.html';
 import gbasketball from '../../ui/views/gbasketball.html';
-import gcrosscountry from '../../ui/views/gcrosscountry.html';
 import gindoortrack from '../../ui/views/gindoortrack.html';
 import glacrosse from '../../ui/views/glacrosse.html';
 import golf from '../../ui/views/golf.html';
 import goutdoortrack from '../../ui/views/goutdoortrack.html';
-import gswimming from '../../ui/views/gswimming.html';
 import gtennis from '../../ui/views/gtennis.html';
 import hockey from '../../ui/views/hockey.html';
 import softball from '../../ui/views/softball.html';
@@ -35,6 +32,10 @@ import wrestiling from '../../ui/views/wrestiling.html';
 import data from '../../ui/views/data/data.html';
 import updateteam from '../../ui/views/data/updateteam.html';
 import updateplayer from '../../ui/views/data/updateplayer.html';
+import soccer from '../../ui/views/data/soccer.html';
+import footbal from '../../ui/views/data/footbal.html';
+import field from '../../ui/views/data/field.html';
+import volley from '../../ui/views/data/volley.html';
 
 
 // Add more templates here
@@ -109,20 +110,6 @@ FlowRouter.route('/volleyball',{
     BlazeLayout.render('MainLayout',{main:'Volleyball'});
   }
 })
-FlowRouter.route('/gcrosscountry',{
-  name:'gcrosscountry',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Gcrosscountry'});
-  }
-})
-FlowRouter.route('/bcrosscountry',{
-  name:'bcrosscountry',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Bcrosscountry'});
-  }
-})
 FlowRouter.route('/bbasketball',{
   name:'bbasketball',
   action(){
@@ -149,20 +136,6 @@ FlowRouter.route('/gindoortrack',{
   action(){
 
     BlazeLayout.render('MainLayout',{main:'Gindoortrack'});
-  }
-})
-FlowRouter.route('/gswimming',{
-  name:'gswimming',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Gswimming'});
-  }
-})
-FlowRouter.route('/bswimming',{
-  name:'bswimming',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Bswimming'});
   }
 })
 FlowRouter.route('/hockey',{
@@ -292,5 +265,40 @@ FlowRouter.route('/updateplayer',{
   action(){
 
     BlazeLayout.render('MainLayout',{main:'Updateplayer'});
+  }
+})
+FlowRouter.route('/basketplayers',{
+  name:'basketplayers',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Basketplayers'});
+  }
+})
+FlowRouter.route('/soccer',{
+  name:'soccer',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Soccer'});
+  }
+})
+FlowRouter.route('/footbal',{
+  name:'footbal',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Footbal'});
+  }
+})
+FlowRouter.route('/field',{
+  name:'field',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Field'});
+  }
+})
+FlowRouter.route('/volley',{
+  name:'volley',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Volley'});
   }
 })

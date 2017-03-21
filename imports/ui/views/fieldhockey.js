@@ -13,7 +13,7 @@ Template.Fieldhockey.onCreated(function (){
 Template.Fieldhockey.helpers({
     players() {
         return Players.find({
-            sport:'fieldhockey'
+            sportFi:'fieldhockey'
         });
     },
     teams() {

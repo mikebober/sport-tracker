@@ -16,6 +16,21 @@ Template.Bindoortrack.helpers({
             'sportTrack':'boys indoor track'
         });
     },
+    sprinting() {
+        return Players.find({
+            'field':'sprinting'
+        });
+    },
+    distance() {
+        return Players.find({
+            'field':'distance'
+        });
+    },
+    field() {
+        return Players.find({
+            'field':'field'
+        });
+    },
     teams() {
         return Teams.find({
             'sport':'boys indoor track'

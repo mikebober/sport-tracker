@@ -7,12 +7,6 @@ Template.Players.events({
 
 
     const player={
-      firstName: tmpl.find('#firstName').value,
-      lastName: tmpl.find('#lastName').value,
-      position: tmpl.find('#position').value,
-      goals: tmpl.find('#goals').value,
-      assits: tmpl.find('#assits').value,
-      sport: tmpl.find('#sport').value,
       //golf
       firstNameGolf: tmpl.find('#firstNameGolf').value,
       lastNameGolf: tmpl.find('#lastNameGolf').value,
@@ -27,6 +21,7 @@ Template.Players.events({
       firstNameTrack: tmpl.find('#firstNameTrack').value,
       lastNameTrack: tmpl.find('#lastNameTrack').value,
       sportTrack: tmpl.find('#sportTrack').value,
+      field: tmpl.find('#sportTrackField').value,
       five: tmpl.find('#five').value,
       one: tmpl.find('#one').value,
       two: tmpl.find('#two').value,
@@ -42,34 +37,10 @@ Template.Players.events({
       shortput: tmpl.find('#shortput').value,
       discces: tmpl.find('#discces').value,
       javulin: tmpl.find('#javulin').value,
-      //football
-      firstNameF: tmpl.find('#firstNameF').value,
-      positionF: tmpl.find('#positionF').value,
-      lastNameF: tmpl.find('#lastNameF').value,
-      sportF: tmpl.find('#sportF').value,
-      reciving: tmpl.find('#reciving').value,
-      rush: tmpl.find('#rush').value,
-      td: tmpl.find('#td').value,
-      tackels: tmpl.find('#tackels').value,
-      sacks: tmpl.find('#sacks').value,
-      inter: tmpl.find('#inter').value,
-      //volleyball
-      firstNameV: tmpl.find('#firstNameV').value,
-      lastNameV: tmpl.find('#lastNameV').value,
-      kills: tmpl.find('#kills').value,
-      points: tmpl.find('#points').value,
-      assitsV: tmpl.find('#assitsV').value,
-      sportV: tmpl.find('#sportV').value
+      };
       //creates object with forum data
-    };
 
     //emptys field
-    tmpl.find('#firstName').value="";
-    tmpl.find('#lastName').value="";
-    tmpl.find('#position').value="";
-    tmpl.find('#goals').value="";
-    tmpl.find('#assits').value="";
-    tmpl.find('#sport').value="";
     //golf
     tmpl.find('#firstNameGolf').value="";
     tmpl.find('#lastNameGolf').value="";
@@ -98,24 +69,8 @@ Template.Players.events({
     tmpl.find('#shortput').value="";
     tmpl.find('#discces').value="";
     tmpl.find('#javulin').value="";
-    //football
-    tmpl.find('#firstNameF').value="";
-    tmpl.find('#lastNameF').value="";
-    tmpl.find('#positionF').value="";
-    tmpl.find('#sportF').value="";
-    tmpl.find('#reciving').value="";
-    tmpl.find('#rush').value="";
-    tmpl.find('#td').value="";
-    tmpl.find('#tackels').value="";
-    tmpl.find('#sacks').value="";
-    tmpl.find('#inter').value="";
-    //volleyball
-    tmpl.find('#firstNameV').value="";
-    tmpl.find('#lastNameV').value="";
-    tmpl.find('#kills').value="";
-    tmpl.find('#points').value="";
-    tmpl.find('#assitsV').value="";
-    tmpl.find('#sportV').value="";
+    
     Players.insert(player);
   }
+
 });

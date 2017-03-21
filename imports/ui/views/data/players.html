@@ -1,88 +1,6 @@
 <template name="Players">
 <div class="input">
-    <form>
-    <label for="sport">Sport</label>
-    <select name="sport" id="sport" required>
-        <option value="boys soccer">Boys Soccer</option>
-        <option value="girls soccer">Girls Soccer</option>
-        <option value="fieldhockey">Fieldhockey</option>
-    </select>
 
-      <label for="firstName">First Name</label>
-      <input type="text" id="firstName" required="true">
-
-      <label for="lastName">Last Name</label>
-      <input type="text" id="lastName" required="true" width="100%;">
-
-      <label for="position">Position</label>
-      <input type="text" id="position" required="true">
-
-      <label for="goals">Goals</label>
-      <input type="text" id="goals" required="true" width="100%;">
-
-      <label for="assits">Assits</label>
-      <input type="text" id="assits" required="true" width="100%;">
-
-      <button type="submit">Add Player</button>
-    </form>
-
-    <h2>Football</h2>
-    <form>
-        <label for="sportF">Sport</label>
-        <input type="text" id="sportF" required="true">
-
-        <label for="firstNameF">First Name</label>
-        <input type="text" id="firstNameF" required="true">
-
-        <label for="lastNameF">Last Name</label>
-        <input type="text" id="lastNameF" required="true">
-
-        <label for="positionF">Position</label>
-        <input type="text" id="positionF" required="true">
-
-        <label for="reciving">Receving Yards</label>
-        <input type="text" id="reciving" required="true">
-
-        <label for="rush">Rushing Yards</label>
-        <input type="text" id="rush" required="true">
-
-        <label for="td">Touch Downs</label>
-        <input type="text" id="td" required="true">
-
-        <label for="tackels">Tackels</label>
-        <input type="text" id="tackels" required="true">
-
-        <label for="sacks">Sacks</label>
-        <input type="text" id="sacks" required="true">
-
-        <label for="inter">Interseptions</label>
-        <input type="text" id="inter" required="true">
-
-        <button type="submit">Add Player</button>
-    </form>
-
-    <h2>Volleyball</h2>
-    <form>
-        <label for="firstNameV">First Name</label>
-        <input type="text" id="firstNameV" required="true">
-
-        <label for="lastNameV">Last Name</label>
-        <input type="text" id="lastNameV" required="true">
-
-        <label for="kills">Kills</label>
-        <input type="text" id="kills" required="true">
-
-        <label for="points">Points</label>
-        <input type="text" id="points" required="true">
-
-        <label for="assitsV">Assits</label>
-        <input type="text" id="assitsV" required="true">
-
-        <label for="sportV">Sport</label>
-        <input type="text" id="sportV" required="true">
-
-        <button type="submit">Add Player</button>
-    </form>
 
     <h2>Golf</h2>
     <form>
@@ -117,7 +35,7 @@
         <label for="won">Wins</label>
         <input type="text" id="won" required="true">
 
-        <button type="submit">Add Player</button>
+
     </form>
 
     <h2>Track</h2>
@@ -126,8 +44,13 @@
       <select name="sportTrack" id="sportTrack" required>
           <option value="boy outdoor track">Boys Outdoor Track</option>
           <option value="girls outdoor track">Girls Outdoor Track</option>
-          <option value="boys indoor track">Boys Indoor Track</option>
-          <option value="girls indoor track">Girls Indoor Track</option>
+      </select>
+
+      <label for="sportTrackField">section</label>
+      <select name="sportTrackField" id="sportTrackField" required>
+          <option value="sprinting">Sprinting</option>
+          <option value="distance">Distance</option>
+          <option value="field">Field</option>
       </select>
 
       <label for="firstNameTrack">First Name</label>
@@ -183,6 +106,5 @@
 
       <button type="submit">Add Player</button>
     </form>
-
 </div>
   </template>

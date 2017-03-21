@@ -13,7 +13,7 @@ Template.Bbasketball.onCreated(function (){
 Template.Bbasketball.helpers({
     players() {
         return Players.find({
-            'sport':'boys basketball'
+            'sportB':'boys basketball'
         });
     },
     teams() {

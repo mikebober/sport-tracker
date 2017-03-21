@@ -48,7 +48,7 @@
 }
 
 .piecharts{
-  height: 100px;
+  height: 50px;
   border: 2px solid black;
   background-color:#ccc;
   margin-right: 2%;
@@ -73,7 +73,7 @@
   margin:20px;
 }
 .bsimage{
-    height:200px;
+    height:250px;
     width: 40%;
     border: 1px solid black;
     float: left;
