@@ -43,16 +43,18 @@
                         <tr>
                             <th>Firstname</th>
                             <th>Lastname</th>
+                            <th>Position</th>
                             <th>Goals</th>
                             <th>Assits</th>
                         </tr>
                         {{#if players}}
                         {{#each player in players}}
                         <tr>
-                            <td>{{player.firstName}}</td>
-                            <td>{{player.lastName}}</td>
-                            <td>{{player.goals}}</td>
-                            <td>{{player.assits}}</td>
+                            <td>{{player.firstNameL}}</td>
+                            <td>{{player.lastNameL}}</td>
+                            <td>{{player.positionL}}</td>
+                            <td>{{player.goalsL}}</td>
+                            <td>{{player.assitsL}}</td>
                         </tr>
                         {{/each}}
                         {{/if}}

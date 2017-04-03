@@ -29,7 +29,6 @@
         </div>
     </div>
     <div class="piecharts">
-        <h1>Where pie charts will be located</h1>
     </div>
     <div class="bsmidpage clearfix">
         <div class="bsteam">
@@ -43,16 +42,16 @@
                         <tr>
                             <th>Firstname</th>
                             <th>Lastname</th>
-                            <th>Goals</th>
-                            <th>Assits</th>
+                            <th>Batting Average</th>
+                            <th>Runs</th>
                         </tr>
                         {{#if players}}
                         {{#each player in players}}
                         <tr>
-                            <td>{{player.firstName}}</td>
-                            <td>{{player.lastName}}</td>
-                            <td>{{player.goals}}</td>
-                            <td>{{player.assits}}</td>
+                            <td>{{player.firstNameSo}}</td>
+                            <td>{{player.lastNameSo}}</td>
+                            <td>{{player.battingS}}</td>
+                            <td>{{player.runsS}}</td>
                         </tr>
                         {{/each}}
                         {{/if}}

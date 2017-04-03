@@ -29,20 +29,18 @@
         </div>
     </div>
     <div class="piecharts">
-        <h1>Where pie charts will be located</h1>
     </div>
     <div class="bsmidpage clearfix">
-        <div class="bsteam">
+        <div class="bsteamT">
             <div class="bscoach">
                 <h2>Coach:  Mastriani</h2>
             </div>
-            <div class="bsroster">
+            <div class="bsrosterT">
                 <h2>Roster</h2>
                 <div class="table">
-                    {{#if players}}
-                    {{#each player in sprinting}}
                     <table>
-                        <h3>Sprinting</h3>
+                        {{#if players}}
+                        {{#each player in players}}
                         <tr>
                             <th>Firstname</th>
                             <th>Lastname</th>
@@ -50,50 +48,10 @@
                             <th>one</th>
                             <th>two</th>
                             <th>300</th>
-                        </tr>
-                        <tr>
-                            <td>{{player.firstNameTrack}}</td>
-                            <td>{{player.lastNameTrack}}</td>
-                            <td>{{player.five}}</td>
-                            <td>{{player.one}}</td>
-                            <td>{{player.two}}</td>
-                            <td>{{player.three}}</td>
-                        </tr>
-                    </table>
-                    {{/each}}
-                    {{/if}}
-
-                    {{#if players}}
-                    {{#each player in distance}}
-                    <table>
-                        <h3>Distance</h3>
-                        <tr>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
                             <th>400</th>
                             <th>800</th>
                             <th>mile</th>
                             <th>2 mile</th>
-                        </tr>
-                        <tr>
-                            <td>{{player.firstNameTrack}}</td>
-                            <td>{{player.lastNameTrack}}</td>
-                            <td>{{player.four}}</td>
-                            <td>{{player.eight}}</td>
-                            <td>{{player.oneMile}}</td>
-                            <td>{{player.twoMile}}</td>
-                        </tr>
-                    </table>
-                    {{/each}}
-                    {{/if}}
-
-                    {{#if players}}
-                    {{#each player in field}}
-                    <table>
-                        <h3>Field</h3>
-                        <tr>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
                             <th>Long Jump</th>
                             <th>High Jump</th>
                             <th>Tripple Jump</th>
@@ -102,19 +60,24 @@
                         <tr>
                             <td>{{player.firstNameTrack}}</td>
                             <td>{{player.lastNameTrack}}</td>
+                            <td>{{player.five}}</td>
+                            <td>{{player.one}}</td>
+                            <td>{{player.two}}</td>
+                            <td>{{player.three}}</td>
+                            <td>{{player.four}}</td>
+                            <td>{{player.eight}}</td>
+                            <td>{{player.oneMile}}</td>
+                            <td>{{player.twoMile}}</td>
                             <td>{{player.longJump}}</td>
                             <td>{{player.highJump}}</td>
                             <td>{{player.trippleJump}}</td>
                             <td>{{player.pole}}</td>
                         </tr>
+                        {{/each}}
+                        {{/if}}
                     </table>
-                    {{/each}}
-                    {{/if}}
                 </div>
             </div>
-        </div>
-        <div class="bsimage">
-            <img src="" height="100%;" width="100%;">
         </div>
     </div>
         <div class="bsstats clearfix">

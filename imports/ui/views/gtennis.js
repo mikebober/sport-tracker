@@ -13,7 +13,7 @@ Template.Gtennis.onCreated(function (){
 Template.Gtennis.helpers({
     players() {
         return Players.find({
-            'sport':'girls tennis'
+            'sportT':'girls tennis'
         });
     },
     teams() {

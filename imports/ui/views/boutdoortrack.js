@@ -16,21 +16,6 @@ Template.Boutdoortrack.helpers({
             'sportTrack':'boys outdoor track'
         });
     },
-    sprinting() {
-        return Players.find({
-            'fieldO':'sprinting'
-        });
-    },
-    distance() {
-        return Players.find({
-            'fieldO':'distance'
-        });
-    },
-    field() {
-        return Players.find({
-            'fieldO':'field'
-        });
-    },
     teams() {
         return Teams.find({
             'sport':'boysOutdoorTrack'

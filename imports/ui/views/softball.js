@@ -13,7 +13,7 @@ Template.Softball.onCreated(function (){
 Template.Softball.helpers({
     players() {
         return Players.find({
-            'sport':'softball'
+            'sportSo':'softball'
         });
     },
     teams() {

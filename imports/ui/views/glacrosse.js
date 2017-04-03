@@ -13,7 +13,7 @@ Template.Glacrosse.onCreated(function (){
 Template.Glacrosse.helpers({
     players() {
         return Players.find({
-            'sport':'girls lacrosse'
+            'sportL':'girls lacrosse'
         });
     },
     teams() {

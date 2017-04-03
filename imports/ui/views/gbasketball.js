@@ -13,7 +13,7 @@ Template.Gbasketball.onCreated(function (){
 Template.Gbasketball.helpers({
     players() {
         return Players.find({
-            'sport':'girls basketball'
+            'sportB':'girls basketball'
         });
     },
     teams() {

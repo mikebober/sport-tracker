@@ -29,38 +29,55 @@
         </div>
     </div>
     <div class="piecharts">
-        <h1>Where pie charts will be located</h1>
     </div>
     <div class="bsmidpage clearfix">
-        <div class="bsteam">
+        <div class="bsteamT">
             <div class="bscoach">
                 <h2>Coach: Surace</h2>
             </div>
-            <div class="bsroster">
+            <div class="bsrosterT">
                 <h2><a href="gsoccerplayers">Roster</a></h2>
                 <div class="table">
                     <table>
-                        <tr>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
-                            <th>Average Drive</th>
-                        </tr>
                         {{#if players}}
                         {{#each player in players}}
                         <tr>
-                            <td>{{player.firstNameGolf}}</td>
-                            <td>{{player.lastNameGolf}}</td>
-                            <td>{{player.avgdrive}}</td>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>five</th>
+                            <th>one</th>
+                            <th>two</th>
+                            <th>300</th>
+                            <th>400</th>
+                            <th>800</th>
+                            <th>mile</th>
+                            <th>2 mile</th>
+                            <th>Long Jump</th>
+                            <th>High Jump</th>
+                            <th>Tripple Jump</th>
+                            <th>pole volt</th>
+                        </tr>
+                        <tr>
+                            <td>{{player.firstNameTrack}}</td>
+                            <td>{{player.lastNameTrack}}</td>
+                            <td>{{player.five}}</td>
+                            <td>{{player.one}}</td>
+                            <td>{{player.two}}</td>
+                            <td>{{player.three}}</td>
+                            <td>{{player.four}}</td>
+                            <td>{{player.eight}}</td>
+                            <td>{{player.oneMile}}</td>
+                            <td>{{player.twoMile}}</td>
+                            <td>{{player.longJump}}</td>
+                            <td>{{player.highJump}}</td>
+                            <td>{{player.trippleJump}}</td>
+                            <td>{{player.pole}}</td>
                         </tr>
                         {{/each}}
                         {{/if}}
                     </table>
                 </div>
             </div>
-        </div>
-        <div class="bsimage">
-            <img src="" height="100%;"
-            width="100%;">
         </div>
     </div>
 

@@ -13,10 +13,7 @@ Template.Players.events({
       sportGolf: tmpl.find('#sportGolf').value,
       avgdrive: tmpl.find('#avgdrive').value,
       //tennis
-      firstNameT: tmpl.find('#firstNameT').value,
-      lastNameT: tmpl.find('#lastNameT').value,
-      sportT: tmpl.find('#sportT').value,
-      won: tmpl.find('#won').value,
+
       //track
       firstNameTrack: tmpl.find('#firstNameTrack').value,
       lastNameTrack: tmpl.find('#lastNameTrack').value,
@@ -46,31 +43,4 @@ Template.Players.events({
     tmpl.find('#lastNameGolf').value="";
     tmpl.find('#sportGolf').value="";
     tmpl.find('#avgdrive').value="";
-    //tennis
-    tmpl.find('#firstNameT').value="";
-    tmpl.find('#lastNameT').value="";
-    tmpl.find('#sportT').value="";
-    tmpl.find('#won').value="";
-    //track
-    tmpl.find('#firstNameTrack').value="";
-    tmpl.find('#lastNameTrack').value="";
-    tmpl.find('#five').value="";
-    tmpl.find('#one').value="";
-    tmpl.find('#two').value="";
-    tmpl.find('#three').value="";
-    tmpl.find('#four').value="";
-    tmpl.find('#eight').value="";
-    tmpl.find('#oneMile').value="";
-    tmpl.find('#twoMile').value="";
-    tmpl.find('#longJump').value="";
-    tmpl.find('#highJump').value="";
-    tmpl.find('#trippleJump').value="";
-    tmpl.find('#pole').value="";
-    tmpl.find('#shortput').value="";
-    tmpl.find('#discces').value="";
-    tmpl.find('#javulin').value="";
-    
-    Players.insert(player);
-  }
-
-});
+}});

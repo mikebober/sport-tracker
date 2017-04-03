@@ -15,12 +15,10 @@ import gsoccer from '../../ui/views/gsoccer.html';
 import fieldhockey from '../../ui/views/fieldhockey.html';
 import baseball from '../../ui/views/baseball.html';
 import bbasketball from '../../ui/views/bbasketball.html';
-import bindoortrack from '../../ui/views/bindoortrack.html';
 import blacrosse from '../../ui/views/blacrosse.html';
 import boutdoortrack from '../../ui/views/boutdoortrack.html';
 import btennis from '../../ui/views/btennis.html';
 import gbasketball from '../../ui/views/gbasketball.html';
-import gindoortrack from '../../ui/views/gindoortrack.html';
 import glacrosse from '../../ui/views/glacrosse.html';
 import golf from '../../ui/views/golf.html';
 import goutdoortrack from '../../ui/views/goutdoortrack.html';
@@ -36,6 +34,14 @@ import soccer from '../../ui/views/data/soccer.html';
 import footbal from '../../ui/views/data/footbal.html';
 import field from '../../ui/views/data/field.html';
 import volley from '../../ui/views/data/volley.html';
+import hoc from '../../ui/views/data/hoc.html';
+import wrest from '../../ui/views/data/wrest.html';
+import base from '../../ui/views/data/base.html';
+import soft from '../../ui/views/data/soft.html';
+import track from '../../ui/views/data/track.html';
+import lax from '../../ui/views/data/lax.html';
+import ten from '../../ui/views/data/ten.html';
+import gol from '../../ui/views/data/gol.html';
 
 
 // Add more templates here
@@ -122,20 +128,6 @@ FlowRouter.route('/gbasketball',{
   action(){
 
     BlazeLayout.render('MainLayout',{main:'Gbasketball'});
-  }
-})
-FlowRouter.route('/bindoortrack',{
-  name:'bindoortrack',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Bindoortrack'});
-  }
-})
-FlowRouter.route('/gindoortrack',{
-  name:'gindoortrack',
-  action(){
-
-    BlazeLayout.render('MainLayout',{main:'Gindoortrack'});
   }
 })
 FlowRouter.route('/hockey',{
@@ -300,5 +292,61 @@ FlowRouter.route('/volley',{
   action(){
 
     BlazeLayout.render('MainLayout',{main:'Volley'});
+  }
+})
+FlowRouter.route('/hoc',{
+  name:'hoc',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Hoc'});
+  }
+})
+FlowRouter.route('/wrest',{
+  name:'wrest',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Wrest'});
+  }
+})
+FlowRouter.route('/base',{
+  name:'base',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Base'});
+  }
+})
+FlowRouter.route('/soft',{
+  name:'soft',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Soft'});
+  }
+})
+FlowRouter.route('/track',{
+  name:'track',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Track'});
+  }
+})
+FlowRouter.route('/lax',{
+  name:'lax',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Lax'});
+  }
+})
+FlowRouter.route('/ten',{
+  name:'ten',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Ten'});
+  }
+})
+FlowRouter.route('/gol',{
+  name:'gol',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Gol'});
   }
 })

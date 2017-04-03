@@ -13,7 +13,7 @@ Template.Wrestiling.onCreated(function (){
 Template.Wrestiling.helpers({
     players() {
         return Players.find({
-            'sport':'wrestiling'
+            'sportW':'wrestiling'
         });
     },
     teams() {
