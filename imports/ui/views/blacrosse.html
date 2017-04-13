@@ -46,6 +46,7 @@
                             <th>Position</th>
                             <th>Goals</th>
                             <th>Assits</th>
+                            <th>Edit</th>
                         </tr>
                         {{#if players}}
                         {{#each player in players}}
@@ -55,6 +56,7 @@
                             <td>{{player.positionL}}</td>
                             <td>{{player.goalsL}}</td>
                             <td>{{player.assitsL}}</td>
+                            <td><a href="laxupdate/{{player._id}}">Update</a></td>
                         </tr>
                         {{/each}}
                         {{/if}}

@@ -5,3 +5,7 @@ import { Players } from '../players.js';
 Meteor.publish('players.public', function () {
 	return Players.find();
 });
+
+Meteor.publish('players.private', function (id) {
+	return Players.find(id);
+});

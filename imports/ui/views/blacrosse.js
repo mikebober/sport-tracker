@@ -13,12 +13,12 @@ Template.Blacrosse.onCreated(function (){
 Template.Blacrosse.helpers({
     players() {
         return Players.find({
-            'sportL':'boys lacrosse'
+            'sport':'boysLacrosse'
         });
     },
     teams() {
         return Teams.find({
-            'sport':'boys lacrosse'
+            'sport':'boysLacrosse'
         });
     }
 })

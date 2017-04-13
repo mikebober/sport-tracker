@@ -10,7 +10,7 @@ Template.Lax.events({
         lastNameL: tmpl.find('#lastNameL').value,
         positionL: tmpl.find('#positionL').value,
         goalsL: tmpl.find('#goalsL').value,
-        sportL: tmpl.find('#sportL').value,
+        sport: tmpl.find('#sportL').value,
         assitsL: tmpl.find('#assitsL').value
     };
 

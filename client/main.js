@@ -40,4 +40,7 @@ import '/imports/ui/views/data/track.js';
 import '/imports/ui/views/data/lax.js';
 import '/imports/ui/views/data/ten.js';
 import '/imports/ui/views/data/gol.js';
+import '/imports/ui/views/data/laxupdate.js';
+import '/imports/ui/views/data/softballupdate.js';
+import '/imports/ui/views/data/baseupdate.js';
 // Import UI components

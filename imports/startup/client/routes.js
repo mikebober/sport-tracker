@@ -42,6 +42,9 @@ import track from '../../ui/views/data/track.html';
 import lax from '../../ui/views/data/lax.html';
 import ten from '../../ui/views/data/ten.html';
 import gol from '../../ui/views/data/gol.html';
+import laxupdate from '../../ui/views/data/laxupdate.html';
+import softballupdate from '../../ui/views/data/softballupdate.html';
+import baseupdate from '../../ui/views/data/baseupdate.html';
 
 
 // Add more templates here
@@ -348,5 +351,26 @@ FlowRouter.route('/gol',{
   action(){
 
     BlazeLayout.render('MainLayout',{main:'Gol'});
+  }
+})
+FlowRouter.route('/laxupdate/:id',{
+  name:'laxupdate',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Laxupdate'});
+  }
+})
+FlowRouter.route('/softballupdate/:id',{
+  name:'softballupdate',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Softballupdate'});
+  }
+})
+FlowRouter.route('/baseupdate/:id',{
+  name:'baseupdate',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Baseupdate'});
   }
 })

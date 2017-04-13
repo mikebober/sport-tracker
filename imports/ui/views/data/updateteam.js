@@ -96,6 +96,11 @@ Template.Updateteam.events({
 
         Teams.update(id, team);
     }
+    else if(tmpl.find('#sport').value == "boysLacrosse"){
+        const id = Teams.find({'sport' : 'boysLacrosse'}).fetch()[0]._id
+
+        Teams.update(id, team);
+    }
 
 
     //empties field

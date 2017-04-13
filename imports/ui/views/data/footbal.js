@@ -15,8 +15,7 @@ Template.Footbal.events({
         rush: tmpl.find('#rush').value,
         td: tmpl.find('#td').value,
         tackels: tmpl.find('#tackels').value,
-        sacks: tmpl.find('#sacks').value,
-        inter: tmpl.find('#inter').value
+        sacks: tmpl.find('#sacks').value
     };
 
     tmpl.find('#firstNameF').value="";
@@ -28,7 +27,6 @@ Template.Footbal.events({
     tmpl.find('#td').value="";
     tmpl.find('#tackels').value="";
     tmpl.find('#sacks').value="";
-    tmpl.find('#inter').value="";
 
     Players.insert(player);
   }
