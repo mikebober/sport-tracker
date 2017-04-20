@@ -43,4 +43,5 @@ import '/imports/ui/views/data/gol.js';
 import '/imports/ui/views/data/laxupdate.js';
 import '/imports/ui/views/data/softballupdate.js';
 import '/imports/ui/views/data/baseupdate.js';
+import '/imports/ui/views/data/tupdate.js';
 // Import UI components

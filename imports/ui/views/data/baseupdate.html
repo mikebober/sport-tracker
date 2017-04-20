@@ -1,4 +1,5 @@
 <template name="Baseupdate">
+    {{#if currentUser}}
     <form>
         <h2>Baseball</h2>
 
@@ -16,4 +17,6 @@
 
         <button type="submit">Add Player</button>
     </form>
+    {{/if}}
+    
 </template>

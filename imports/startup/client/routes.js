@@ -45,6 +45,7 @@ import gol from '../../ui/views/data/gol.html';
 import laxupdate from '../../ui/views/data/laxupdate.html';
 import softballupdate from '../../ui/views/data/softballupdate.html';
 import baseupdate from '../../ui/views/data/baseupdate.html';
+import tupdate from '../../ui/views/data/tupdate.html';
 
 
 // Add more templates here
@@ -372,5 +373,12 @@ FlowRouter.route('/baseupdate/:id',{
   action(){
 
     BlazeLayout.render('MainLayout',{main:'Baseupdate'});
+  }
+})
+FlowRouter.route('/tupdate/:id',{
+  name:'tupdate',
+  action(){
+
+    BlazeLayout.render('MainLayout',{main:'Tupdate'});
   }
 })
